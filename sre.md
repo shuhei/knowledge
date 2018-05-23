@@ -14,4 +14,4 @@ See:
 ## Weekly Review
 
 - Check error counts/rates and latencies over a week
-- Explain why they happenned and how to mitigate them
+- If there are peaks, explain why they happenned and how to mitigate them
