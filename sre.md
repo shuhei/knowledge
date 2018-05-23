@@ -15,3 +15,9 @@ See:
 
 - Check error counts/rates and latencies over a week
 - If there are peaks, explain why they happenned and how to mitigate them
+
+## Monitoring
+
+- [Everything You Know About Latency Is Wrong](https://bravenewgeek.com/everything-you-know-about-latency-is-wrong/)
+  - Don't average percentiles
+  - Don't ignore p99, p99.9, p99.99 as exceptions
