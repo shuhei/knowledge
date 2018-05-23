@@ -1,6 +1,6 @@
 # SRE
 
-## Reliability Patters for Microservices
+## Reliability Patterns for Microservices
 
 - retry
 - circuit breaker
