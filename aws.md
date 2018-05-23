@@ -1,10 +1,16 @@
 # AWS
 
+## VPC
+
+- A VPC has subnets in multiple Availability Zones.
+- Subnets can be private or public.
+- "AZ A" of an AWS account can be phisically located differently from "AZ A" of another account.
+
 ## NAT Gateway
 
 https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-nat-gateway.html
 
-- EC2 instances without public IPs need NAT to access the internet. NAT Gateway is one of them.
+- EC2 instances without public IPs need some kind of NAT to access the internet (if not IPv6). NAT Gateway is one of them.
 - Each availability zone should have a NAT Gateway.
 - NAT Gateway has a private IP and a public IP.
 - If NAT Gateway cost is too high, consider putting EC2 instances in a public subnet of VPC.
