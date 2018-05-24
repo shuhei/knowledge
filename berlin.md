@@ -2,12 +2,20 @@
 
 ## BBQ
 
-[Here you are allowed to have a barbecue](https://www.berlin.de/senuvk/umwelt/stadtgruen/gruenanlagen/de/nutzungsmoeglichkeiten/grillen/en/hier.shtml)
+BBQ is allowed only in designated areas. [Here you are allowed to have a barbecue](https://www.berlin.de/senuvk/umwelt/stadtgruen/gruenanlagen/de/nutzungsmoeglichkeiten/grillen/en/hier.shtml).
+
+The parks that I have been so far:
 
 - Tempelhof - Fun. 3 BBQ places.
 - Volkspark Friedrichshain - Nice.
 - Fennpfuhlpark - A beautiful park.
 - Mauerpark - So so.
+
+Most of the supermarkets in Berlin are closed on Sunday and holidays. If you have a plan to do BBQ on Sunday or a holiday, buy food on Saturday. If you cannot make it, big statioins have supermarkets that are open everyday.
+
+- Hauptbahnhof
+- Friedrishstraße
+- Zoologischer Garten
 
 ## Craft Beer
 
