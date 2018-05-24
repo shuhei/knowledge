@@ -2,13 +2,17 @@
 
 ## Craft Beer
 
-- Beer Pub Ishii - My favorite pub
-- Biama - The biggest collection of craft beer in Tokyo
+- [Sendagi] Beer Pub Ishii - My favorite pub
+- [Kitasenju] Biama - The biggest collection of craft beer in Tokyo
 
 ## Ramen
 
-- Ichiryu - My favorite
+- [Shimokitazawa] Ichiryu - My favorite
 
 ## Izakaya
 
-TBD
+- [Nishiogikubo] Shimpo - Fish
+- [Kichijoji] Kujirayama
+- [Kichijoji] Harmonica Yokocho
+- [Shinjuku 3-Chome] Tamura - Yakitori (chiken skewers)
+- [Shimbashi, etc.] Uokin - Fish
