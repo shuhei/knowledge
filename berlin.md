@@ -28,3 +28,14 @@ Most of the supermarkets in Berlin are closed on Sunday and holidays. If you hav
 - Straßenbräu - A brewery in Friedrichshain
 - Birra - Italian craft beer
 - [Muse](http://www.museberlin.com/) - A restaurant with beer by Fuerst Wiacek
+
+## Japanese Food
+
+- Daruma - A small shop where you can eat food and buy groceries. Authentic food like at a canteen in Japan.
+- Momiji - Good Takoyaki.
+- Marutai ramen (Oita) at Go Asia - The best ramen that I can buy in Berlin
+
+## Cake
+
+- [Latodolce](http://www.latodolce.com/)
+- [Komine](http://www.cafekomine.de/)
