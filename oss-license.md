@@ -7,11 +7,11 @@ I'm not a lawyer. Don't trust me.
 
 ## Including copyright and license when static-linking OSS libraries
 
-It seems that we should include copyrights and license notes also for permissive licenses when we static-link them. For example, MIT License says:
+It seems that we should include copyrights and license notes even for permissive licenses when we static-link them. For example, MIT License says:
 
 >The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-About bundling JavaScript libraries with webpack, I can think of two options so far.
+When static-linking JavaScript libraries to a bundle with webpack, I can think of two options so far.
 
 1. Configure webpack to leave copyright & license comments in libraries.
   - https://github.com/webpack-contrib/uglifyjs-webpack-plugin/issues/222
