@@ -4,9 +4,7 @@
 
 ### Stats
 
-[prometheus/node_exporter](https://github.com/prometheus/node_exporter) checks `/proc/net/snmp` and `/proc/net/netstat`.
-
-Explanations for the keys are in the source code of [netstat](https://github.com/ecki/net-tools/blob/master/statistics.c).
+[prometheus/node_exporter](https://github.com/prometheus/node_exporter) checks `/proc/net/snmp` and `/proc/net/netstat`. They have almost same information as `netstat -s`, but names are different. Their mapping is in the source code of [netstat -s](https://github.com/ecki/net-tools/blob/master/statistics.c).
 
 According to *Systems Performance*, useful ones are:
 
