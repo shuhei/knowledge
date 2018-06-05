@@ -4,7 +4,7 @@
 
 ### Stats
 
-[prometheus/node_exporter](https://github.com/prometheus/node_exporter) checks `/proc/net/snmp` and `/proc/net/netstat`. They have almost same information as `netstat -s`, but names are different. Their mapping is in the source code of [netstat -s](https://github.com/ecki/net-tools/blob/master/statistics.c).
+[prometheus/node_exporter](https://github.com/prometheus/node_exporter) checks `/proc/net/netstat`. It has almost same information as `netstat -s`, but names are different. Their mapping is in the source code of [netstat -s](https://github.com/ecki/net-tools/blob/master/statistics.c).
 
 According to *Systems Performance*, useful ones are:
 
@@ -34,6 +34,8 @@ TcpExt
 	TCPFastRetrans
 	TCPRcvCollapsed
 ```
+
+Part of them are in `/proc/net/snmp` but node-exporter doesn't have it.
 
 ### TCP Connection Status
 
