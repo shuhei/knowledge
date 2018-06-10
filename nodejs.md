@@ -1,5 +1,16 @@
 # Node.js
 
+## Event Loop
+
+Read [The Node.js Event Loop, Timers, and process.nextTick()](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/).
+
+1. `setTimeout`, `setInterval`
+2. `poll`: IO callbacks
+3. `setInterval`
+4. `close` event handlers
+
+Microtasks such as `process.nextTick()` and promise callbacks are executed before proceeding to the next phase.
+
 ## Logging of HTTP Server
 
 ### Useful low-level packages
