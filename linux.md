@@ -18,7 +18,7 @@ The journey of a TCP connection before it is accepted by an application:
 
 1. A SYN packet comes
     - If SYN queue is not full, it is queued in the SYN queue. The server sends a SYN/ACK packet and waits for ACK to come. This waiting has a timeout and retries.
-    - If SYN queue is full, a SYN cookie is sent and the server forgets about the SYN packet. This is to mitigate SYN flooding. The client can still send ACK to it, but TCP options are ignored, etc.
+    - If SYN queue is full, a SYN cookie is sent (TODO: when accept queue is full instead of SYN queue?) and the server forgets about the SYN packet. This is to mitigate SYN flooding. The client can still send ACK to it, but TCP options are ignored, etc.
 2. An ACK packet comes
     - If accept queue is not full, it is queued in the accept queue and it waits for the application to `accept` it.
     - If accept queue is full, the server just ignores it. This is a half open state. The client thinks that the connection is open, but it's not on the server. The client retransmits ACK and the client application observes a delay.
