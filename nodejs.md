@@ -9,7 +9,7 @@ Read [The Node.js Event Loop, Timers, and process.nextTick()](https://nodejs.org
 3. `setInterval`
 4. `close` event handlers
 
-Microtasks such as `process.nextTick()` and promise callbacks are executed before proceeding to the next phase.
+Microtasks such as `process.nextTick()` and promise callbacks are eagerly executed before proceeding to the next phase. [An experiment here](https://gist.github.com/shuhei/34efae93e288ebf20a46de633a53ae9d).
 
 ## Logging of HTTP Server
 
