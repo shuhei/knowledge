@@ -39,9 +39,17 @@ The cheapest and lightest grill with legs available in Berlin would be something
 
 ## Japanese Food
 
+Restaurants:
+
 - Daruma - A small shop where you can eat food and buy groceries. Authentic food like at a canteen in Japan.
 - Momiji - Good Takoyaki.
-- Marutai ramen (Oita) at Go Asia - The best ramen that I can buy in Berlin
+- Tenzan Lab - Good Kakigori (shaved ice). Hojicha Mascarpone was nice. Also Sakekasu if you like sake.
+
+Groceries:
+
+- Go Asia
+  - Marutai Ramen Oita and Nagasaki are the best ramens that I can buy in Berlin
+- Daruma
 
 ## Cake
 
