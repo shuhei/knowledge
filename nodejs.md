@@ -13,13 +13,15 @@ Microtasks such as `process.nextTick()` and promise callbacks are eagerly execut
 
 ## Profiling
 
-### Flame Graph
+### CPU Flame Graph
 
-Available only on Linux?
+Available only on Linux.
 
 - [Node.js Frame Graphs on Linux](http://www.brendangregg.com/blog/2014-09-17/node-flame-graphs-on-linux.html) - CPU frame graph with Node.js
 - [CPU Frame Graph](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) - CPU frame graph in general
 - [Node.js in Flame](https://medium.com/netflix-techblog/node-js-in-flames-ddd073803aa4) - A nice use case of CPU frame graph
+
+To profile a process in a container, check [Making FlameGraphs with Containerized Java](http://blog.alicegoldfuss.com/making-flamegraphs-with-containerized-java/).
 
 ## Logging of HTTP Server
 
