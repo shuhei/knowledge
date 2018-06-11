@@ -23,6 +23,31 @@ Available only on Linux.
 
 To profile a process in a container, check [Making FlameGraphs with Containerized Java](http://blog.alicegoldfuss.com/making-flamegraphs-with-containerized-java/).
 
+## Debugging with Chrome
+
+https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27
+
+### Inspect
+
+```
+node --inspect index.js
+```
+
+And open chrome://inspect/ with Chrome.
+
+### Tracing
+
+https://nodejs.org/api/tracing.html
+
+```
+node --trace-events-enabled index.js
+```
+
+`node_trace.1.log` is generated at cwd.
+
+1. Open chrome://tracing/.
+2. Load the file.
+
 ## Logging of HTTP Server
 
 ### Useful low-level packages
