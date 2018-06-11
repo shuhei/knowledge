@@ -33,7 +33,7 @@ https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-
 node --inspect index.js
 ```
 
-And open chrome://inspect/ with Chrome.
+And open chrome://inspect/ with Chrome. In addition to breakpoint debugging, Profiling and Memory snapshots are available.
 
 ### Tracing
 
