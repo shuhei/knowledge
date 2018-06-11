@@ -11,6 +11,16 @@ Read [The Node.js Event Loop, Timers, and process.nextTick()](https://nodejs.org
 
 Microtasks such as `process.nextTick()` and promise callbacks are eagerly executed before proceeding to the next phase. [An experiment here](https://gist.github.com/shuhei/34efae93e288ebf20a46de633a53ae9d).
 
+## Profiling
+
+### Flame Graph
+
+Available only on Linux?
+
+- [Node.js Frame Graphs on Linux](http://www.brendangregg.com/blog/2014-09-17/node-flame-graphs-on-linux.html) - CPU frame graph with Node.js
+- [CPU Frame Graph](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) - CPU frame graph in general
+- [Node.js in Flame](https://medium.com/netflix-techblog/node-js-in-flames-ddd073803aa4) - A nice use case of CPU frame graph
+
 ## Logging of HTTP Server
 
 ### Useful low-level packages
