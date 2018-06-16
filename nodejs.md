@@ -11,6 +11,13 @@ Read [The Node.js Event Loop, Timers, and process.nextTick()](https://nodejs.org
 
 Microtasks such as `process.nextTick()` and promise callbacks are eagerly executed before proceeding to the next phase. [An experiment here](https://gist.github.com/shuhei/34efae93e288ebf20a46de633a53ae9d).
 
+## libuv
+
+Node.js event loop is backed by [libuv](http://libuv.org/).
+
+- network I/O: single thread with polling (epoll on Linux, kqueue on Mac and BSD, etc.)
+- file I/O: multiple threads using a thread pool
+
 ## Profiling
 
 ### CPU Flame Graph
