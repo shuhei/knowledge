@@ -75,3 +75,11 @@ Express middlewares:
 
 - [response-time](https://github.com/expressjs/response-time) - Using `on-headers` to measure response time. Note that the response time does **NOT** include the period from `res.writeHead()` to `res.end()`.
 - [morgan](https://github.com/expressjs/morgan) - Using `on-headers` to measure response time. Using `on-finished` to write logs.
+
+## Performance Optimization
+
+### Micro-Optimization
+
+- https://github.com/fastify/fastify - Cool ideas
+- https://github.com/pinojs/pino
+- https://github.com/davidmarkclements/flatstr - Before passing a big concatenated string to non-V8 API
