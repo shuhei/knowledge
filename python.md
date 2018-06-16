@@ -11,4 +11,7 @@ source ~/foo/bin/activate
 
 # No sudo is necessary!
 pip install -U some-cool-module
+
+# To get out of the venv
+deactivate
 ```
