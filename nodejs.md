@@ -83,3 +83,11 @@ Express middlewares:
 - https://github.com/fastify/fastify - Cool ideas
 - https://github.com/pinojs/pino
 - https://github.com/davidmarkclements/flatstr - Before passing a big concatenated string to non-V8 API
+
+## C++ Addons
+
+https://nodejs.org/api/addons.html
+
+- Build with `node-gyp`
+- N-API is the new way of building addons and will be stable in future versions of Node.js
+- NAN (Native Abstractions for Node.js) is obsolete?
