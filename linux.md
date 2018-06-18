@@ -28,6 +28,12 @@ The journey of a TCP connection before it is accepted by an application:
 - https://blog.cloudflare.com/syn-packet-handling-in-the-wild/
 - https://eklitzke.org/how-tcp-sockets-work
 
+## TLS/SSL
+
+- TLS is a successor of SSL, which is deprecated.
+- TLS works on top of TCP. It makes handshakes on top of TCP.
+- HTTPS works on top of TLS.
+
 ## Network Monitoring
 
 ### Stats
