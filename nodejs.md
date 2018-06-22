@@ -88,6 +88,10 @@ Express middlewares:
 - https://github.com/pinojs/pino
 - https://github.com/davidmarkclements/flatstr - Before passing a big concatenated string to non-V8 API
 
+### Clustering
+
+- https://stackoverflow.com/questions/12432442/node-js-targeting-a-cpu-core - `CPU cores - 1` workers work best???
+
 ## C++ Addons
 
 https://nodejs.org/api/addons.html
