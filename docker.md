@@ -21,3 +21,13 @@ docker run -it --rm ${docker_image} /bin/sh
 docker ps # to note an container ID to login
 docker exec -it ${docker_container} /bin/sh
 ```
+
+## Restart a running container with another command
+
+https://stackoverflow.com/questions/32353055/how-to-start-a-stopped-docker-container-with-a-different-command
+
+## Get a container ID made of an image
+
+```sh
+docker ps --format "{{.ID}}" --filter "ancestor=${image_name}"
+```
