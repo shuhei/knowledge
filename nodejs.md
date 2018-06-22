@@ -20,6 +20,10 @@ Node.js event loop is backed by [libuv](http://libuv.org/).
 
 ## Profiling
 
+Resources:
+
+- https://github.com/thlorenz/v8-perf
+
 ### CPU Flame Graph
 
 Available only on Linux.
