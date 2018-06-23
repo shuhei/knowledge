@@ -82,3 +82,10 @@ https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.hal
 - ESTABLISHED: Normal working sockets.
 - TIME_WAIT: Almost closed but waiting to be actually closed. If this is many, it indicates that lots of connections are opened and closed. For example, it happens when HTTP Keep-Alive is not used.
   - https://serverfault.com/questions/10852/what-limits-the-maximum-number-of-connections-on-a-linux-server
+
+## Commands
+
+### htop
+
+- Sort: P for CPU, M for memory, T for time
+- Toggle threads: H for user threads, K for kernel threads
