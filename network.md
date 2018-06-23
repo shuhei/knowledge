@@ -15,3 +15,4 @@
 - HTTP - On top of TCP.
 - HTTPS - On top of TLS.
   - [RFC 2818 - The Secure HyperText Transfer Protocol](https://tools.ietf.org/html/rfc2818)
+  - https://security.stackexchange.com/questions/20803/how-does-ssl-tls-work
