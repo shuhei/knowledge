@@ -31,3 +31,10 @@ https://stackoverflow.com/questions/32353055/how-to-start-a-stopped-docker-conta
 ```sh
 docker ps --format "{{.ID}}" --filter "ancestor=${image_name}"
 ```
+
+## Get pid in container from host OS
+
+```
+$ cat /proc/${host_pid}/status | grep NSpid
+NSpid:  ${host_pid}    ${conatainer_pid}
+```
