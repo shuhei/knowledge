@@ -12,7 +12,7 @@
   - [RFC 7414 - A Roadmap for Transmission Control Protocol (TCP)](https://tools.ietf.org/html/rfc7414)
 - TLS - On top of TCP. Successor of SSL.
   - [RFC 5246 - The Transport Layer Security (TLS) Protocol Version 1.2](https://tools.ietf.org/html/rfc5246)
+  - https://security.stackexchange.com/questions/20803/how-does-ssl-tls-work
 - HTTP - On top of TCP.
 - HTTPS - On top of TLS.
   - [RFC 2818 - The Secure HyperText Transfer Protocol](https://tools.ietf.org/html/rfc2818)
-  - https://security.stackexchange.com/questions/20803/how-does-ssl-tls-work
