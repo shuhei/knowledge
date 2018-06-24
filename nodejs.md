@@ -16,7 +16,7 @@ Microtasks such as `process.nextTick()` and promise callbacks are eagerly execut
 Node.js event loop is backed by [libuv](http://libuv.org/).
 
 - network I/O: single thread with polling (epoll on Linux, kqueue on Mac and BSD, etc.)
-- file I/O: multiple threads using a thread pool
+- file I/O, DNS lookup: multiple threads using a thread pool
 
 ## Profiling
 
