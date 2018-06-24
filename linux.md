@@ -44,6 +44,17 @@ The journey of a TCP connection before it is accepted by an application:
 - https://blog.cloudflare.com/syn-packet-handling-in-the-wild/
 - https://eklitzke.org/how-tcp-sockets-work
 
+## DNS Resolver
+
+- DNS resolver is not provided by Linux Kernel.
+- It's defined in POSIX and implemented by C Standard Libraries like glibc.
+  - [getaddrinfo](https://en.wikibooks.org/wiki/C_Programming/POSIX_Reference/netdb.h/getaddrinfo)
+- glibc implenataion
+  - Controlled by `/etc/hosts`, `/etc/resolv.conf` and `/etc/nsswitch.conf`
+  - No cache
+- Alpine Linux uses musl libc, which has different DNS resolver implementation from glibc.
+  - https://wiki.musl-libc.org/functional-differences-from-glibc.html
+
 ## Network Monitoring
 
 ### Stats
