@@ -54,6 +54,9 @@ The journey of a TCP connection before it is accepted by an application:
   - No cache
 - Alpine Linux uses musl libc, which has different DNS resolver implementation from glibc.
   - https://wiki.musl-libc.org/functional-differences-from-glibc.html
+- Caching
+  - Use dnsmasq, nscd, bind, etc. and put the IP address of it as `nameserver` in `/etc/resolv.conf`.
+  - Ubuntu Network Manager uses dnsmasq.
 
 ## Network Monitoring
 
