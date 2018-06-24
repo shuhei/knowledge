@@ -53,5 +53,6 @@ Groceries:
 
 ## Cake
 
-- [Latodolce](http://www.latodolce.com/)
-- [Komine](http://www.cafekomine.de/)
+- [Latodolce](http://www.latodolce.com/) - patisserie
+- [Komine](http://www.cafekomine.de/) - patisserie and cafe
+- [Hallmann & Klee](https://www.hallmann-klee.de/) - cafe
