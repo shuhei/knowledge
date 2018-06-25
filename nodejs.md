@@ -21,6 +21,7 @@ Node.js event loop is backed by [libuv](http://libuv.org/).
 ## DNS
 
 - `dns.lookup()` -> `libuv`'s thread pool -> `getaddrinfo(3)`
+  - This doesn't have caching. [We should use a caching solution in OS](https://github.com/nodejs/node/issues/5893).
 - `dns.resolve()` -> [c-ares](https://github.com/c-ares/c-ares)
 
 ## Logging of HTTP Server
