@@ -18,6 +18,21 @@ Node.js event loop is backed by [libuv](http://libuv.org/).
 - network I/O: single thread with polling (epoll on Linux, kqueue on Mac and BSD, etc.)
 - file I/O, DNS lookup: multiple threads using a thread pool
 
+### Thread Pool
+
+According to https://nodejs.org/api/cli.html#cli_uv_threadpool_size_size, the thread pool is used for:
+
+- all `fs` APIs, other than the file watcher APIs and those that are explicitly synchronous
+- `crypto.pbkdf2()`
+- `crypto.randomBytes()`, unless it is used without a callback
+- `crypto.randomFill()`
+- `dns.lookup()`
+- all `zlib` APIs, other than those that are explicitly synchronous
+
+http://docs.libuv.org/en/latest/threadpool.html
+
+`UV_THREADPOOL_SIZE` is `4` by default. `128` is the absolute maximum.
+
 ## DNS
 
 - `dns.lookup()` -> `libuv`'s thread pool -> `getaddrinfo(3)`
