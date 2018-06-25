@@ -31,7 +31,11 @@ According to https://nodejs.org/api/cli.html#cli_uv_threadpool_size_size, the th
 
 http://docs.libuv.org/en/latest/threadpool.html
 
-`UV_THREADPOOL_SIZE` is `4` by default. `128` is the absolute maximum.
+`UV_THREADPOOL_SIZE`:
+
+- `4` by default.
+- `128` is the absolute maximum.
+- The size is per process. When used with `cluster`, each worker has the size.
 
 ## DNS
 
