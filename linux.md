@@ -109,5 +109,18 @@ https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.hal
 
 ### htop
 
-- Sort: P for CPU, M for memory, T for time
-- Toggle threads: H for user threads, K for kernel threads
+- Sort: `P` for CPU, `M` for memory, `T` for time
+- Toggle threads: `H` for user threads, `K` for kernel threads
+- Tree view: `t`
+- Filter processes by name: `\`
+- Settings: `S`
+
+## Metrics
+
+### /proc/<pid>/schedstat
+
+1. time spent on the cpu
+2. time spent waiting on a runqueue
+3. # of timeslices run on this cpu
+
+https://www.kernel.org/doc/Documentation/scheduler/sched-stats.txt
