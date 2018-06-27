@@ -121,6 +121,6 @@ https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.hal
 
 1. time spent on the cpu
 2. time spent waiting on a runqueue
-3. # of timeslices run on this cpu
+3. `#` of timeslices run on this cpu
 
 https://www.kernel.org/doc/Documentation/scheduler/sched-stats.txt
