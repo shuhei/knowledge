@@ -6,6 +6,10 @@
 man man
 ```
 
+- To specify a section - `man ${SECTION} ${NAME}` For example, `man 2 write` for the `write` system call
+
+### Sections
+
 1. Executable programs or shell commands
 2. System calls (functions provided by the kernel)
 3. Library calls (functions within program libraries)
@@ -119,10 +123,10 @@ https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.hal
 
 `strace` traces system calls and signals.
 
-- Trace a process: Use `-p ${PID}`.
-- Write the output to a file: Use `-o`. Because the output is written to stderr, `>` doesn't work.
+- To trace a process - Use `-p ${PID}`.
+- To write the output to a file - Use `-o`. Because the output is written to stderr, `>` doesn't work.
 - Try `strace echo "hello"` and check each system call with `man`.
-- File descriptors for standard streams: 0 for stdin, 1 for stdout, 2 for stderr
+- File descriptors for standard streams - 0 for stdin, 1 for stdout, 2 for stderr
 
 ## Metrics
 
