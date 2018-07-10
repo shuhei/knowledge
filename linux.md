@@ -1,25 +1,5 @@
 # Linux
 
-## man
-
-```sh
-man man
-```
-
-- To specify a section - `man ${SECTION} ${NAME}` For example, `man 2 write` for the `write` system call
-
-### Sections
-
-1. Executable programs or shell commands
-2. System calls (functions provided by the kernel)
-3. Library calls (functions within program libraries)
-4. Special files (usually found in /dev)
-5. File formats and conventions eg /etc/passwd
-6. Games
-7. Miscellaneous (including macro packages and conventions), e.g. man(7), groff(7)
-8. System administration commands (usually only for root)
-9. Kernel routines [Non standard]
-
 ## TCP
 
 [tcp(7)](http://man7.org/linux/man-pages/man7/tcp.7.html)
@@ -110,6 +90,28 @@ https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.hal
   - https://serverfault.com/questions/10852/what-limits-the-maximum-number-of-connections-on-a-linux-server
 
 ## Commands
+
+### man
+
+```sh
+man man
+```
+
+- To specify a section - `man ${SECTION} ${NAME}` For example, `man 2 write` for the `write` system call
+- To search man pages in their titles and short descriptions - `man -k ${KEYWORD}`
+- To search man pages in their full contents - `man -K ${KEYWORD}`
+
+#### Sections
+
+1. Executable programs or shell commands
+2. System calls (functions provided by the kernel)
+3. Library calls (functions within program libraries)
+4. Special files (usually found in /dev)
+5. File formats and conventions eg /etc/passwd
+6. Games
+7. Miscellaneous (including macro packages and conventions), e.g. man(7), groff(7)
+8. System administration commands (usually only for root)
+9. Kernel routines [Non standard]
 
 ### htop
 
