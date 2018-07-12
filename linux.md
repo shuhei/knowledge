@@ -123,7 +123,7 @@ man man
 
 ### strace
 
-`strace` traces system calls and signals.
+`strace` traces system calls and signals. [It can cause severe performance slow-down](http://www.brendangregg.com/blog/2014-05-11/strace-wow-much-syscall.html).
 
 - To trace a process - Use `-p ${PID}`.
 - To write the output to a file - Use `-o`. Because the output is written to stderr, `>` doesn't work.
