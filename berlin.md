@@ -41,6 +41,7 @@ The cheapest and lightest grill with legs available in Berlin would be something
 
 Restaurants:
 
+- Harapeco - Good Okonomiyaki (Japanese pancake). 10 seconds away from Straßenbräu!
 - Daruma - A small shop where you can eat food and buy groceries. Authentic food like at a canteen in Japan.
 - Momiji - Good Takoyaki.
 - Tenzan Lab - Good Kakigori (shaved ice). Hojicha Mascarpone was nice. Also Sakekasu if you like sake.
