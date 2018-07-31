@@ -70,6 +70,7 @@ Express middlewares:
 Resources:
 
 - https://github.com/thlorenz/v8-perf
+- https://clinicjs.org/
 
 ### CPU Flame Graph
 
