@@ -136,6 +136,7 @@ man man
 - List available signals: `kill -l`
 - Signal name -> number: `kill -l USR2`
 - Number -> signal name: `kill -l 12`
+- To read more about signals: `man 7 signal`
 
 ## Metrics
 
