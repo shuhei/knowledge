@@ -132,3 +132,4 @@ https://nodejs.org/api/addons.html
 ## Production Best Practices
 
 - [Node.js production checklist](https://speakerdeck.com/gergelyke/node-dot-js-production-checklist)
+- [RisingStack Blog](https://blog.risingstack.com/)
