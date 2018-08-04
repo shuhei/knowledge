@@ -130,6 +130,13 @@ man man
 - Try `strace echo "hello"` and check each system call with `man`.
 - File descriptors for standard streams - 0 for stdin, 1 for stdout, 2 for stderr
 
+### kill
+
+- Send `USR2` to process ID 1234: `kill -12 1234`
+- List available signals: `kill -l`
+- Signal name -> number: `kill -l USR2`
+- Number -> signal name: `kill -l 12`
+
 ## Metrics
 
 ### /proc/{pid}/schedstat
