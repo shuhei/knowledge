@@ -28,3 +28,9 @@ On Mac:
 ```sh
 ssh ${username}@${ip}
 ```
+
+It's handy to name the guess OS:
+
+```sh
+sudo bash -c "echo ${ip} ${nickname} >> /etc/hosts"
+```
