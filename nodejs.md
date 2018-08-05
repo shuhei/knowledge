@@ -78,11 +78,26 @@ Available only on Linux.
 
 - [Node.js Frame Graphs on Linux](http://www.brendangregg.com/blog/2014-09-17/node-flame-graphs-on-linux.html) - CPU frame graph with Node.js
 - [CPU Frame Graph](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) - CPU frame graph in general
-- [0x](https://github.com/davidmarkclements/0x) - Another tool to generate CPU frame graph optimized for Node.js
+- [0x](https://github.com/davidmarkclements/0x) - Another tool to generate CPU frame graph with nice features for Node.js
 - [Node.js in Flame](https://medium.com/netflix-techblog/node-js-in-flames-ddd073803aa4) - A nice use case of CPU frame graph
 - [Debugging Node.js Performance Issues in Production](https://www.elastic.co/videos/debugging-node-js-performance-issues-in-production-by-thomas-watson) - A talk with demo of CPU frame graph and core dump
 
 To profile a process in a container, check [Making FlameGraphs with Containerized Java](http://blog.alicegoldfuss.com/making-flamegraphs-with-containerized-java/).
+
+#### 0x
+
+`0x --visualize-only` can visualize two different kinds of input:
+
+- `isolate-*-*-v8.log`
+  - From V8
+  - Available on all environments
+  - Better JS function names
+  - Doesn't include stuff under V8 like kernel, etc.
+- `stacks.*.out`
+  - From `perf record` and `perf script`
+  - Available only on Linux
+  - Some percentage of JS function names are unknown (TODO: Can we improve it?)
+  - Includes everything including kernel code
 
 ## Debugging with Chrome
 
