@@ -84,11 +84,15 @@ Resources:
 
 ### CPU Flame Graph
 
-Available only on Linux.
+Tools:
 
 - [Node.js Frame Graphs on Linux](http://www.brendangregg.com/blog/2014-09-17/node-flame-graphs-on-linux.html) - CPU frame graph with Node.js
 - [CPU Frame Graph](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) - CPU frame graph in general
 - [0x](https://github.com/davidmarkclements/0x) - Another tool to generate CPU frame graph with nice features for Node.js
+- [FlameScope](https://github.com/Netflix/flamescope) - Timescale + Flame Graph
+
+Introductions:
+
 - [Node.js in Flame](https://medium.com/netflix-techblog/node-js-in-flames-ddd073803aa4) - A nice use case of CPU frame graph
 - [Debugging Node.js Performance Issues in Production](https://www.elastic.co/videos/debugging-node-js-performance-issues-in-production-by-thomas-watson) - A talk with demo of CPU frame graph and core dump
 
