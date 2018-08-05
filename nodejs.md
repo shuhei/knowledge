@@ -18,6 +18,11 @@ Node.js event loop is backed by [libuv](http://libuv.org/).
 - network I/O: single thread with polling (epoll on Linux, kqueue on Mac and BSD, etc.)
 - file I/O, DNS lookup: multiple threads using a thread pool
 
+To know what's going on, use:
+
+- `process._getActiveHandles()`: handles
+- `process._getActiveRequests()`: requests
+
 ### Thread Pool
 
 According to https://nodejs.org/api/cli.html#cli_uv_threadpool_size_size, the thread pool is used for:
