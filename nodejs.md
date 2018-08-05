@@ -49,6 +49,11 @@ http://docs.libuv.org/en/latest/threadpool.html
   - It doesn't have caching. [We should use a caching solution in OS](https://github.com/nodejs/node/issues/5893).
 - `dns.resolve()` -> [c-ares](https://github.com/c-ares/c-ares)
 
+## Async Hooks
+
+- [Performance impact of async_hooks](https://github.com/nodejs/benchmarking/issues/181)
+- https://github.com/bmeurer/async-hooks-performance-impact
+
 ## Logging of HTTP Server
 
 ### Useful low-level packages
