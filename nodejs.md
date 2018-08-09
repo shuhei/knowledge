@@ -75,12 +75,27 @@ Express middlewares:
 - [response-time](https://github.com/expressjs/response-time) - Using `on-headers` to measure response time. Note that the response time does **NOT** include the period from `res.writeHead()` to `res.end()`.
 - [morgan](https://github.com/expressjs/morgan) - Using `on-headers` to measure response time. Using `on-finished` to write logs.
 
+## Garbage Collection
+
+- [Garbage collection in V8, an illustrated guide](https://medium.com/@_lrlna/garbage-collection-in-v8-an-illustrated-guide-d24a952ee3b8) - Nice illustrated guide
+- [A tour of V8: Garbage Collection
+](http://jayconrod.com/posts/55/a-tour-of-v8-garbage-collection) - Detailed guide for V8 Garbage Collection
+
+How to check:
+
+- `node --trace-gc` logs GCs. Use `node --trace-gc --trace-gc-ignore-scavenger` if scavenge logs are too much.
+  - It seems to be safe to use in production.
+- [Performance Timing API](https://nodejs.org/api/perf_hooks.html) from Node v10 provides GC events to JavaScript without native modules.
+- Most of GC-related monitoring tools need native modules. OSS packages like [gc-stats](https://github.com/dainis/node-gcstats), and many enterprise monitoring solutions.
+
 ## Profiling
 
 Resources:
 
-- https://github.com/thlorenz/v8-perf
-- https://clinicjs.org/
+- [thlorenz/v8-perf](https://github.com/thlorenz/v8-perf) - Lots of information about V8 & Node.js performance
+- [Node Clinic](https://clinicjs.org/) - An Open Source Node.js performance profiling suite by NearForm
+  - Work also on non-Linux machines
+- [Nodejs Profiling Tools](https://jiajizhou.com/2015/04/15/nodejs-profiling-tools.html) - A good guide that covers many tools
 
 ### CPU Flame Graph
 
