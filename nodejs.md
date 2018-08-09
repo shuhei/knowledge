@@ -85,6 +85,7 @@ How to check:
 
 - `node --trace-gc` logs GCs. Use `node --trace-gc --trace-gc-ignore-scavenger` if scavenge logs are too much.
   - It seems to be safe to use in production.
+  - [v8-gc-log-parser](https://github.com/aliyun-node/v8-gc-log-parser)
 - [Performance Timing API](https://nodejs.org/api/perf_hooks.html) from Node v10 provides GC events to JavaScript without native modules.
 - Most of GC-related monitoring tools need native modules. OSS packages like [gc-stats](https://github.com/dainis/node-gcstats), and many enterprise monitoring solutions.
 
