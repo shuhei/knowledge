@@ -112,6 +112,7 @@ Introductions:
 
 - [Node.js in Flame](https://medium.com/netflix-techblog/node-js-in-flames-ddd073803aa4) - A nice use case of CPU frame graph
 - [Debugging Node.js Performance Issues in Production](https://www.elastic.co/videos/debugging-node-js-performance-issues-in-production-by-thomas-watson) - A talk with demo of CPU frame graph and core dump
+- [Generating Node.js Flame Graphs](https://yunong.io/2015/11/23/generating-node-js-flame-graphs/) - says `–perf-basic-prof-only-functions` is safe to use in production as long as the file size growth is OK
 
 To profile a process in a container, check [Making FlameGraphs with Containerized Java](http://blog.alicegoldfuss.com/making-flamegraphs-with-containerized-java/).
 
