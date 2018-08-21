@@ -61,3 +61,32 @@ Groceries:
 ## Insurance
 
 - Liability insurance (Privathaftpflicht) is important in Germany. Use [Check 24](https://www.check24.de/) to compare different plans.
+
+## Finding an Apartment
+
+Tips:
+
+- Connection, connection, connection! Ask people around you if they know anyone who is looking for a tenant or a Nachmieter
+- Documents: Prepare ASAP
+  - SCHUFA
+  - Mietschuldenfreiheitsbescheinigung
+  - Payslips of 3 months
+  - Bank statements with only income
+    - Deutsche Bank website doesn't have a filter for income, but you can filter transactions by your employer's name
+- Tenant protection association
+  - https://www.berliner-mieterschutzverein.de/ - There are layers who can consult in English
+
+Unfurnished:
+
+- https://www.immobilienscout24.de/
+- https://www.immowelt.de/
+- Facebook groups
+
+Furnished:
+
+- https://wunderflats.com/
+
+Terms:
+
+- Apartment/Flat: Kind of same
+- Studio: A kitchen and a bedroom combined in a room
