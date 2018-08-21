@@ -57,3 +57,7 @@ Groceries:
 - [Latodolce](http://www.latodolce.com/) - patisserie
 - [Komine](http://www.cafekomine.de/) - patisserie and cafe
 - [Hallmann & Klee](https://www.hallmann-klee.de/) - cafe
+
+## Insurance
+
+- Liability insurance (Privathaftpflicht) is important in Germany. Use [Check 24](https://www.check24.de/) to compare different plans.
