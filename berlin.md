@@ -45,6 +45,7 @@ Restaurants:
 - Daruma - A small shop where you can eat food and buy groceries. Authentic food like at a canteen in Japan.
 - Momiji - Good Takoyaki.
 - Tenzan Lab - Good Kakigori (shaved ice). Hojicha Mascarpone was nice. Also Sakekasu if you like sake.
+- Ishin - Reasonable sushi with reasonable price.
 
 Groceries:
 
