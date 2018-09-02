@@ -81,6 +81,7 @@ Unfurnished:
 
 - https://www.immobilienscout24.de/
 - https://www.immowelt.de/
+- https://www.ebay-kleinanzeigen.de/
 - Facebook groups
 
 Furnished:
