@@ -147,6 +147,8 @@ node --inspect index.js
 
 And open chrome://inspect/ with Chrome. In addition to breakpoint debugging, Profiling and Memory snapshots are available.
 
+Also, `USR1` signal activates Inspector API. `process._debugProcess(pid)` on Linux/Unix sends `USR1` signal to another process. You can invoke `process_debugEnd()` on the process via Inspector to stop debugging. However, the process exits somehow on Node 8 and 10...
+
 ### Tracing
 
 https://nodejs.org/api/tracing.html
