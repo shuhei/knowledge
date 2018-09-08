@@ -98,6 +98,19 @@ Resources:
   - Work also on non-Linux machines
 - [Nodejs Profiling Tools](https://jiajizhou.com/2015/04/15/nodejs-profiling-tools.html) - A good guide that covers many tools
 
+### V8 Profiler
+
+TODO: Which one to use?
+
+- v8-profiler
+- v8-profiler-node8
+- v8-profiler-next
+
+Visualization:
+
+- Flame Chart (Timeline): Chrome Dev Tools -> More Tools -> JavaScript Profiler -> Load
+- CPU Flame Graph: https://thlorenz.com/flamegraph/web/
+
 ### Visualization
 
 #### CPU Flame Graph
