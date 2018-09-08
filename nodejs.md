@@ -98,7 +98,9 @@ Resources:
   - Work also on non-Linux machines
 - [Nodejs Profiling Tools](https://jiajizhou.com/2015/04/15/nodejs-profiling-tools.html) - A good guide that covers many tools
 
-### CPU Flame Graph
+### Visualization
+
+#### CPU Flame Graph
 
 Tools:
 
@@ -107,6 +109,7 @@ Tools:
 - [0x](https://github.com/davidmarkclements/0x) - Another tool to generate CPU frame graph with nice features for Node.js
 - [FlameScope](https://github.com/Netflix/flamescope) - Timescale + Flame Graph
 - [Off-CPU Flame Graph](http://www.brendangregg.com/FlameGraphs/offcpuflamegraphs.html)
+- [SpeedScope](https://github.com/jlfwong/speedscope) - A web-based tool that can do more than CPU Flame Graph
 
 Introductions:
 
