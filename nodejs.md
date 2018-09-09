@@ -89,13 +89,20 @@ How to check:
 - [Performance Timing API](https://nodejs.org/api/perf_hooks.html) from Node v10 provides GC events to JavaScript without native modules.
 - Most of GC-related monitoring tools need native modules. OSS packages like [gc-stats](https://github.com/dainis/node-gcstats), and many enterprise monitoring solutions.
 
-## Profiling
+## CPU Profiling
 
-Resources:
+There are mainly two approaches for CPU profiling.
+
+- V8 profiler: This is the way to go because V8 supports it, but it still doesn't cover outside of V8, such as libuv, etc.
+- Linux perf: V8 doesn't officially support it, but it will keep working for a while.
+
+Both of them are currently being improved.
+
+Read [Node CPU Profiling Roadmap](https://github.com/nodejs/diagnostics/issues/148) for more details.
+
+### General
 
 - [thlorenz/v8-perf](https://github.com/thlorenz/v8-perf) - Lots of information about V8 & Node.js performance
-- [Node Clinic](https://clinicjs.org/) - An Open Source Node.js performance profiling suite by NearForm
-  - Work also on non-Linux machines
 - [Nodejs Profiling Tools](https://jiajizhou.com/2015/04/15/nodejs-profiling-tools.html) - A good guide that covers many tools
 
 ### V8 Profiler
@@ -111,15 +118,16 @@ Visualization:
 - Flame Chart (Timeline): Chrome Dev Tools -> More Tools -> JavaScript Profiler -> Load
 - CPU Flame Graph: https://thlorenz.com/flamegraph/web/
 
-### Visualization
+Profiling & Visualization:
 
-#### CPU Flame Graph
+- [Node Clinic](https://clinicjs.org/) - An Open Source Node.js performance profiling suite by NearForm
+
+### Linux perf + CPU Flame Graph
 
 Tools:
 
 - [Node.js Frame Graphs on Linux](http://www.brendangregg.com/blog/2014-09-17/node-flame-graphs-on-linux.html) - CPU frame graph with Node.js
 - [CPU Frame Graph](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) - CPU frame graph in general
-- [0x](https://github.com/davidmarkclements/0x) - Another tool to generate CPU frame graph with nice features for Node.js
 - [FlameScope](https://github.com/Netflix/flamescope) - Timescale + Flame Graph
 - [Off-CPU Flame Graph](http://www.brendangregg.com/FlameGraphs/offcpuflamegraphs.html)
 - [SpeedScope](https://github.com/jlfwong/speedscope) - A web-based tool that can do more than CPU Flame Graph
@@ -136,7 +144,9 @@ Gotchas:
 - To profile a process in a container, check [Making FlameGraphs with Containerized Java](http://blog.alicegoldfuss.com/making-flamegraphs-with-containerized-java/).
 - Caveats of `--perf-basic-prof-only-functions` https://gist.github.com/shuhei/6c261342063bad387c70af384c6d8d5c
 
-#### 0x
+### 0x
+
+[0x](https://github.com/davidmarkclements/0x) is another tool to generate CPU frame graph with nice features for Node.js. It works with both of V8 profiler and Linux perf, but it seems to be focusing more on V8 profiler.
 
 `0x --visualize-only` can visualize two different kinds of input:
 
@@ -148,7 +158,7 @@ Gotchas:
 - `stacks.*.out`
   - From `perf record` and `perf script`
   - Available only on Linux
-  - Some percentage of JS function names are unknown (TODO: Can we improve it?)
+  - Some percentage of JS function names are unknown
   - Includes everything including kernel code
 
 ## Debugging with Chrome
