@@ -93,8 +93,8 @@ How to check:
 
 There are mainly two approaches for CPU profiling.
 
-- V8 profiler: This is the way to go because V8 supports it, but it still doesn't cover outside of V8, such as libuv, etc.
-- Linux perf: V8 doesn't officially support it, but it will keep working for a while.
+- V8 profiler: This is the way to go in the long term because V8 supports it, but it still doesn't cover outside of V8, such as libuv, etc.
+- Linux perf: Low runtime overhead and covers everything including libuv, etc. V8 doesn't officially support it, but it will keep working for a while.
 
 Both of them are currently being improved.
 
@@ -124,13 +124,22 @@ Profiling & Visualization:
 
 ### Linux perf + CPU Flame Graph
 
+This method uses Linux `perf` command for profiling. Because JavaScript is compiled just-in-time, `perf` command cannot get JavaScript function names without a help of V8. To do it, we need to generate a symbol file (`/tmp/perf-${pid}.map`) from a running Node.js process. There are two ways to do it.
+
+1. `--perf-basic-prof-only-functions`: This has already been used for a while, but there is [an issue that the symbol file keeps old symbols](https://gist.github.com/shuhei/6c261342063bad387c70af384c6d8d5c) and the symbol file keeps growing.
+2. [mmarchini/node-linux-perf](https://github.com/mmarchini/node-linux-perf) can generate the symbol file on demand. Because of how it works, the symbol file won't have the issue of old symbols. Works only on Node 10+. **I haven't tested this by myself yet.**
+
+To improve the quality of symbols, we can use some Node.js options with some overhead:
+
+- `--no-turbo-inlining`
+- `--interpreted-frames-native-stack` - Node 10.4.0+. Check out "Interpreted Frames" of [the issue](https://github.com/nodejs/diagnostics/issues/148#issuecomment-369348961).
+
 Tools:
 
 - [Node.js Frame Graphs on Linux](http://www.brendangregg.com/blog/2014-09-17/node-flame-graphs-on-linux.html) - CPU frame graph with Node.js
-- [CPU Frame Graph](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) - CPU frame graph in general
-- [FlameScope](https://github.com/Netflix/flamescope) - Timescale + Flame Graph
-- [Off-CPU Flame Graph](http://www.brendangregg.com/FlameGraphs/offcpuflamegraphs.html)
+- [FlameScope](https://github.com/Netflix/flamescope) - **My favorite!** Timescale + Flame Graph
 - [SpeedScope](https://github.com/jlfwong/speedscope) - A web-based tool that can do more than CPU Flame Graph
+- [0x](https://github.com/davidmarkclements/0x) is another tool to generate CPU frame graph with nice features for Node.js. It works with both of V8 profiler and Linux perf, but it seems to be focusing more on V8 profiler.
 
 Introductions:
 
@@ -139,14 +148,16 @@ Introductions:
 - [Generating Node.js Flame Graphs](https://yunong.io/2015/11/23/generating-node-js-flame-graphs/) - says `–perf-basic-prof-only-functions` is safe to use in production as long as the file size growth is OK
 - [State of Diagnostic Tools for Production Environment in the Node.js Ecosystem](https://github.com/mmarchini/nodejs-production-diagnostic-tools) - state-of-the-art practices of CPU Flame Graph with Linux `perf`
 
+CPU Frame Graph in General:
+
+- [CPU Frame Graph](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html)
+- [Off-CPU Flame Graph](http://www.brendangregg.com/FlameGraphs/offcpuflamegraphs.html)
+
 Gotchas:
 
 - To profile a process in a container, check [Making FlameGraphs with Containerized Java](http://blog.alicegoldfuss.com/making-flamegraphs-with-containerized-java/).
-- Caveats of `--perf-basic-prof-only-functions` https://gist.github.com/shuhei/6c261342063bad387c70af384c6d8d5c
 
 ### 0x
-
-[0x](https://github.com/davidmarkclements/0x) is another tool to generate CPU frame graph with nice features for Node.js. It works with both of V8 profiler and Linux perf, but it seems to be focusing more on V8 profiler.
 
 `0x --visualize-only` can visualize two different kinds of input:
 
