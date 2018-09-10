@@ -68,12 +68,16 @@ Groceries:
 Tips:
 
 - Connection, connection, connection! Ask people around you if they know anyone who is looking for a tenant or a Nachmieter
-- Documents: Prepare ASAP
+- View many apartments. Even before you collect all documents, it's nice to start viewing to get used to it and figure out what you really want. I learned something new every time I visited a new apartment. There are viewings that don't require appointments in advance.
+- Documents: Collect the following ASAP. Keep copies in folders so that you can pass them immediately to landlords or real estate managers. Also preprae a PDF file with all of them in it so that you can sent it easily.
+  - Copy of your IDs and passports
+  - Anmeldung of your current address (if you live in Germany)
   - SCHUFA
-  - Mietschuldenfreiheitsbescheinigung
-  - Payslips of 3 months
-  - Bank statements with only income
-    - Deutsche Bank website doesn't have a filter for income, but you can filter transactions by your employer's name
+  - Mietschuldenfreiheitsbescheinigung (a letter from your current/previous landlord to prove that you don't have any debt to them)
+  - Evidence of your income (either of the following)
+    - Payslips of the last 3 months
+    - Bank statements with only income
+      - Deutsche Bank website doesn't have a filter for income, but you can filter transactions by your employer's name
 - Tenant protection association
   - https://www.berliner-mieterschutzverein.de/ - There are lawyers who can consult in English
 
@@ -92,3 +96,5 @@ Terms:
 
 - Apartment/Flat: Kind of same
 - Studio: A kitchen and a bedroom combined in a room
+- Nachmieter: Renting an apartment right after a tenant leaving it. The contract is directly made with its landlord.
+- Sublet: A tenant (instead of the landlord) leases an apartment to someone else.
