@@ -80,7 +80,7 @@ Tips:
     - Bank statements with only income
       - Deutsche Bank website doesn't have a filter for income, but you can filter transactions by your employer's name
 - Tenant protection association
-  - https://www.berliner-mieterschutzverein.de/ - There are lawyers who can consult in English
+  - https://www.berliner-mieterschutzverein.de/ - There are lawyers who can consult in English. Online registration form is available.
 
 Unfurnished:
 
