@@ -69,6 +69,7 @@ Tips:
 
 - Connection, connection, connection! Ask people around you if they know anyone who is looking for a tenant or a Nachmieter
 - View many apartments. Even before you collect all documents, it's nice to start viewing to get used to it and figure out what you really want. I learned something new every time I visited a new apartment. There are viewings that don't require appointments in advance.
+  - Most of real-estate agencies speak very good English. Don't be afraid even if you don't speak German!
 - Documents: Collect the following ASAP. Keep copies in folders so that you can pass them immediately to landlords or real estate managers. Also preprae a PDF file with all of them in it so that you can sent it easily.
   - Copy of your IDs and passports
   - Anmeldung of your current address (if you live in Germany)
