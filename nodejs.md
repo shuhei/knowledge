@@ -107,11 +107,10 @@ Read [Node CPU Profiling Roadmap](https://github.com/nodejs/diagnostics/issues/1
 
 ### V8 Profiler
 
-TODO: Which one to use?
-
-- v8-profiler
-- v8-profiler-node8
-- v8-profiler-next
+- [v8-profiler](https://github.com/node-inspector/v8-profiler) - Oldest but not maintained anymore? CPU profiling and heap snapshot.
+- [v8-profiler-node8](https://github.com/hyj1991/v8-profiler-node8) - A fork of v8-profiler and works with Node 8 and 10.
+- [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - Supports heap sampling profiler in addition to CPU profiling and heap snapshot. [The author recommends v8-profiler-node8 for now](https://github.com/hyj1991/v8-profiler-node8/issues/5).
+- [cloud-profiler-nodejs](https://github.com/GoogleCloudPlatform/cloud-profiler-nodejs) - For Google Cloud Platform
 
 Visualization:
 
