@@ -6,6 +6,11 @@
 - `;` is something between `,` and `.`. It is also useful to list up items containing `,`. e.g. Tokyo, Japan; Berlin, Germany; and London, UK
 - There are three different horitonzal bars—`-` hyphen, `–` en dash (`Option+-`), and `—` em dash (`Shift+Option+-`).
 
+References:
+
+- [The Punctuation Guide](https://www.thepunctuationguide.com/)
+- [GrammarBook.com Punctuation Rules](https://www.grammarbook.com/punctuation_rules.asp)
+
 ## Abbreviations
 
 - `e.g.` is for "for example"
