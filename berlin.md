@@ -46,6 +46,7 @@ Restaurants:
 - Momiji - Good Takoyaki.
 - Tenzan Lab - Good Kakigori (shaved ice). Hojicha Mascarpone was nice. Also Sakekasu if you like sake.
 - Ishin - Reasonable sushi with reasonable price.
+- Takumi Nine - Good *miso* ramen.
 
 Groceries:
 
