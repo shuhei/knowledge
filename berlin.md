@@ -64,6 +64,13 @@ Groceries:
 
 - Liability insurance (Privathaftpflicht) is important in Germany. Use [Check 24](https://www.check24.de/) to compare different plans.
 
+## Healthcare
+
+### Doctor Search
+
+- [jameda](https://www.jameda.de/) - Search doctors with ratings
+- [aerzte-berlin.de](http://www.aerzte-berlin.de/_php/therapie30/fach.php) - Search doctors with languages and specialties
+
 ## Finding an Apartment
 
 Tips:
