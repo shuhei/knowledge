@@ -107,3 +107,7 @@ Terms:
 - Studio: A kitchen and a bedroom combined in a room
 - Nachmieter: Renting an apartment right after a tenant leaving it. The contract is directly made with its landlord.
 - Sublet: A tenant (instead of the landlord) leases an apartment to someone else.
+
+## Gym
+
+- [Send a letter to cancel a membership](https://www.reddit.com/r/berlin/comments/8q7y8w/how_do_i_give_mcfit_gym_cancellation_notice/)
