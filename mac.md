@@ -34,3 +34,16 @@ It's handy to name the guess OS:
 ```sh
 sudo bash -c "echo ${ip} ${nickname} >> /etc/hosts"
 ```
+
+## Mount Linux file system
+
+To use a visual editor, etc.
+
+```sh
+brew cask install osxfuse
+brew install sshfs
+mkdir -p ~/rdev/remote
+sshfs ${linux_host}:/ ~/rdev/remote
+```
+
+https://www.quora.com/What-is-the-best-way-to-use-Atom-io-over-SSH/answer/Ryan-Cheu
