@@ -138,9 +138,10 @@ man man
 - Number -> signal name: `kill -l 12`
 - To read more about signals: `man 7 signal`
 
-### readlink
+### realpath
 
-- Get an absolute path from a relative path: `readlink -f ./foo`
+- Get an absolute path from a relative path: `realpath ./foo`
+  - `readlink -f` also works
 
 ## Metrics
 
