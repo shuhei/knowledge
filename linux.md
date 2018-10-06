@@ -138,6 +138,10 @@ man man
 - Number -> signal name: `kill -l 12`
 - To read more about signals: `man 7 signal`
 
+### readlink
+
+- Get an absolute path from a relative path: `readlink -f ./foo`
+
 ## Metrics
 
 ### `/proc/${pid}/schedstat`
