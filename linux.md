@@ -140,10 +140,34 @@ man man
 
 ## Metrics
 
-### /proc/{pid}/schedstat
+### `/proc/${pid}/schedstat`
 
 1. time spent on the cpu
 2. time spent waiting on a runqueue
 3. `#` of timeslices run on this cpu
 
 https://www.kernel.org/doc/Documentation/scheduler/sched-stats.txt
+
+### `/proc/${pid}/status`
+
+This has various process-level info and metrics.
+
+Memory-related:
+
+```
+VmPeak: Peak virtual memory size
+VmSize: Current virtual memory size
+VmLck: ???
+VmPin: ???
+VmHWM: Peak (High Water Mark) RSS (Resident Set Size, the size of allocated main memory pages)
+VmRSS: Current RSS
+RssAnon: RSS of anonymous pages (mapped to nothing)
+RssFile: RSS of pages mapped to files
+RssShmem: RSS of pages mapped to shared memory
+VmData: Size of data segment
+VmStk: Size of stack segment
+VmExe: Size of text segment
+VmLib: Size of shared library code
+VmPTE: Size of Page Table Entries
+VmSwap: Size of swapped pages (paged-out anonymous pages)
+```
