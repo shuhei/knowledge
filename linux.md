@@ -149,6 +149,16 @@ man man
 - Make a hexdump of the first 100 bytes of a file: `xxd -l 100 ${file}`
 - Print hex bytes as ASCII: `echo 696e6465782e6a73 | xxd -r -p`
 
+## Debugging
+
+### gdb
+
+- Show stack traces: `bt`
+- Examine an address: `x ${address}`
+- Show information about a symbol: `p ${symbol}`
+
+https://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf
+
 ## Proc Files
 
 ### `/proc/${pid}/schedstat`
