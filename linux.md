@@ -154,6 +154,7 @@ man man
 ### gdb
 
 - Show stack traces: `bt`
+- Show registers: `i registers`
 - Examine an address: `x ${address}`
 - Show information about a symbol: `p ${symbol}`
 
