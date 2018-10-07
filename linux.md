@@ -149,7 +149,7 @@ man man
 - Make a hexdump of the first 100 bytes of a file: `xxd -l 100 ${file}`
 - Print hex bytes as ASCII: `echo 696e6465782e6a73 | xxd -r -p`
 
-## Metrics
+## Proc Files
 
 ### `/proc/${pid}/schedstat`
 
@@ -182,3 +182,7 @@ VmLib: Size of shared library code
 VmPTE: Size of Page Table Entries
 VmSwap: Size of swapped pages (paged-out anonymous pages)
 ```
+
+### `/proc/${pid}/cmdline`
+
+Commandline args separated and terminated by NULL
