@@ -142,6 +142,12 @@ man man
 
 - Get an absolute path from a relative path: `realpath ./foo`
   - `readlink -f` also works
+  
+### xxd
+
+- Make a hexdump of a file: `xxd ${file}`
+- Make a hexdump of the first 100 bytes of a file: `xxd -l 100 ${file}`
+- Print hex bytes as ASCII: `echo 696e6465782e6a73 | xxd -r -p`
 
 ## Metrics
 
