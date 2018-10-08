@@ -149,6 +149,10 @@ man man
 - Make a hexdump of the first 100 bytes of a file: `xxd -l 100 ${file}`
 - Print hex bytes as ASCII: `echo 696e6465782e6a73 | xxd -r -p`
 
+### sudo
+
+- [Use `PATH` of a user](https://unix.stackexchange.com/questions/83191/how-to-make-sudo-preserve-path): `sudo env "PATH=$PATH" ${some_command_here}`
+
 ## Debugging
 
 ### gdb
