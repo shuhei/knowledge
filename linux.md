@@ -160,6 +160,8 @@ man man
 - Show stack traces: `bt`
 - Show registers: `i registers`
 - Examine an address: `x ${address}`
+- Show an instruction at an address: `x/i ${address}`
+- Show 10 instructions starting from an address: `x/10i ${address}`
 - Show information about a symbol: `p ${symbol}`
 
 https://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf
