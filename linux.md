@@ -166,6 +166,12 @@ man man
 
 https://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf
 
+### lldb
+
+- Show registers: `reg read`
+- Show an instruction at an address: `x/i ${address}`
+- Show 10 instructions starting from an address: `x/10i ${address}`
+
 ## Proc Files
 
 ### `/proc/${pid}/schedstat`
