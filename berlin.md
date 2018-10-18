@@ -87,6 +87,12 @@ Tips:
     - Payslips of the last 3 months
     - Bank statements with only income
       - Deutsche Bank website doesn't have a filter for income, but you can filter transactions by your employer's name
+  - Cover letter (I'm not sure if it's really necessary, but you can show that you are serious...?)
+    - self introduction & family members
+    - gross family income
+    - smoking or not
+    - with pets or not
+    - the reason for looking for a new apartment
 - Tenant protection association
   - https://www.berliner-mieterschutzverein.de/ - There are lawyers who can consult in English. Online registration form is available.
 
