@@ -32,3 +32,5 @@ https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/how-elastic-lo
 - Cross-zone load balancing:
   - ALB: Always enabled
   - Classic ELB: Configurable
+- Access log is opt-in.
+  - To find load balancer 5xx: `grep ' 5[0-9]\{2\} - ' ${log_file}`
