@@ -153,6 +153,10 @@ man man
 
 - [Use `PATH` of a user](https://unix.stackexchange.com/questions/83191/how-to-make-sudo-preserve-path): `sudo env "PATH=$PATH" ${some_command_here}`
 
+### grep
+
+- Escape `{}` of regular expression like `\{\}`
+
 ## Debugging
 
 ### gdb
