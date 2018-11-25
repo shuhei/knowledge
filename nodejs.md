@@ -227,6 +227,7 @@ https://nodejs.org/api/addons.html
 
 - Timeouts
   - https://shuheikagawa.com/blog/2017/05/13/http-request-timeouts-in-javascript/
+  - Before Node 10.7.0, agent's `timeout` superceded request's `timeout`. https://github.com/nodejs/node/issues/21185
 - Make an HTTPS request with an IP address
   ```js
   const hostname = 'example.com';
