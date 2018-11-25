@@ -222,3 +222,19 @@ https://nodejs.org/api/addons.html
 
 - [Node.js production checklist](https://speakerdeck.com/gergelyke/node-dot-js-production-checklist)
 - [RisingStack Blog](https://blog.risingstack.com/)
+
+## HTTP/HTTPS
+
+- Timeouts
+  - https://shuheikagawa.com/blog/2017/05/13/http-request-timeouts-in-javascript/
+- Make an HTTPS request with an IP address
+  ```js
+  const hostname = 'example.com';
+  const ipAddress = /* get an IP address somehow */;
+  const req = http.request({
+    hostname: ipAddress,
+    headers: {
+      Host: `${hostname}:443`,
+    },
+  });
+  ```
