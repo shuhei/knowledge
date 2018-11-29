@@ -48,6 +48,13 @@ http://docs.libuv.org/en/latest/threadpool.html
   - Used by `net.connect()`, `http.request()`, etc. by default.
   - It doesn't have caching. [We should use a caching solution in OS](https://github.com/nodejs/node/issues/5893).
 - `dns.resolve()` -> [c-ares](https://github.com/c-ares/c-ares)
+  - https://github.com/nodejs/node/blob/master/src/cares_wrap.cc has code for both of c-ares and libuv functions
+  - [ares_init_options](https://c-ares.haxx.se/ares_init_options.html)
+    - Timeout for each name server is 5 seconds by default (Node.js is using default)
+    - Tries each name server 4 times by default (Node.js is using default)
+  - `Resolver` class
+    - creates another **channel** of c-ares and can have another name server configuration, etc.
+    - `cancel()` cancels **all** outstanding calls
 
 ## Async Hooks
 
