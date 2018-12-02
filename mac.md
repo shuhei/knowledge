@@ -47,3 +47,13 @@ sshfs ${linux_host}:/ ~/rdev/remote
 ```
 
 https://www.quora.com/What-is-the-best-way-to-use-Atom-io-over-SSH/answer/Ryan-Cheu
+
+## Netowork
+
+### Test multiple IP addresses on local:
+
+```sh
+sudo ifconfig lo0 alias 127.0.0.2
+```
+
+https://serverfault.com/a/403097/225384
