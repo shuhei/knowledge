@@ -157,6 +157,24 @@ man man
 
 - Escape `{}` of regular expression like `\{\}`
 
+### tldr
+
+```sh
+# Install
+npm i -g tldr
+
+# Use
+tldr ln
+```
+
+### curl
+
+Wrap URL in a quote. Otherwise `&` in GET query parameters messes up your command.
+
+```
+curl -X PUT -H "application/json" -H "Authorization: Bearer $(some_command_to_get_token)" -v "https://foo.bar/baz?a=123&b=234" -d '{"ja":"nein"}'
+```
+
 ## Debugging
 
 ### gdb
