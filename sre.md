@@ -21,3 +21,16 @@ See:
 - [Everything You Know About Latency Is Wrong](https://bravenewgeek.com/everything-you-know-about-latency-is-wrong/)
   - Don't average percentiles
   - Don't ignore p99, p99.9, p99.99 as exceptions
+
+### Histogram
+
+- [Your Latency Metrics Could Be Misleading You — How HdrHistogram Can Help](https://medium.com/hotels-com-technology/your-latency-metrics-could-be-misleading-you-how-hdrhistogram-can-help-9d545b598374)
+- [
+Histogram for Time-Series Metrics on Node.js](https://shuheikagawa.com/blog/2018/12/29/histogram-for-time-series-metrics-on-node-js/)
+
+HDR Histogram is basically a big array with dynamic resizing.
+
+- 0-2047 covers 0-2047 with precision 1
+- 2048-3071 covers 2048-4095 with precision 2
+- 3072-4095 covers 4097-8191 with precision 4
+- and so on
