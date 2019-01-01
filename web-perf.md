@@ -6,6 +6,11 @@
 
 - Remove reflow.
 
+### Measurement with Chrome DevTools
+
+- Use *Disable Cache*, *CPU Throttling*, *Network Throttling*, etc.
+- When you record screenshots with reload on *Performance* tab, the previous page is also recorded in screenshots before the next page is displayed. To avoid this, delete `<body>` on *Element* tab before reloading the page.
+
 ### React
 
 - Don't render hidden elements.
