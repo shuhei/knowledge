@@ -2,9 +2,28 @@
 
 ## `Makefile`
 
+### References:
+
+- https://swcarpentry.github.io/make-novice/reference.html
+
 ### Indentation
 
 Indentation has to be tabs. Have `autocmd FileType make setlocal noexpandtab` in `.vimrc`.
+
+### Targets
+
+- The first target is treated as the default target (It can be changed by `.DEFAULT_TARGET := foo` as of Make 3.81)
+- Use file names as targets if possible
+- Put `.PHONY` before non-file-name targets
+
+```make
+.PHONY: foo
+foo:
+	# Do something
+.PHONY: bar
+bar:
+	# Do something
+```
 
 ### Macro
 
