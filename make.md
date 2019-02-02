@@ -20,6 +20,7 @@ Indentation has to be tabs. Have `autocmd FileType make setlocal noexpandtab` in
 .PHONY: foo
 foo:
 	# Do something
+
 .PHONY: bar
 bar:
 	# Do something
