@@ -14,15 +14,16 @@ Indentation has to be tabs. Have `autocmd FileType make setlocal noexpandtab` in
 
 - The first target is treated as the default target (It can be changed by `.DEFAULT_TARGET := foo` as of Make 3.81)
 - Use file names as targets if possible
+- List up dependencies of a target. Dependencies can be files (targets or not) or phony targets. List up depended files to be able to re-build when they change (avoid `make: 'foo' is up to date`).
 - Put `.PHONY` before non-file-name targets
 
 ```make
 .PHONY: foo
-foo:
+foo: foo.c
 	# Do something
 
 .PHONY: bar
-bar:
+bar: bar.c
 	# Do something
 ```
 
