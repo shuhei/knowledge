@@ -23,6 +23,11 @@ To know what's going on, use:
 - `process._getActiveHandles()`: handles
 - `process._getActiveRequests()`: requests
 
+To learn more:
+
+- http://docs.libuv.org/en/v1.x/guide.html
+- https://www.youtube.com/watch?v=sGTRmPiXD4Y
+
 ### Thread Pool
 
 According to https://nodejs.org/api/cli.html#cli_uv_threadpool_size_size, the thread pool is used for:
