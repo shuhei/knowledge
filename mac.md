@@ -57,3 +57,11 @@ sudo ifconfig lo0 alias 127.0.0.2
 ```
 
 https://serverfault.com/a/403097/225384
+
+### Replacement for `telnet`
+
+OS X Sierra dropped `telnet`. Use `nc (netcat)` instead:
+
+```sh
+nc
+```
