@@ -26,6 +26,7 @@ To know what's going on, use:
 To learn more:
 
 - http://docs.libuv.org/en/v1.x/guide.html
+  - https://github.com/libuv/libuv/tree/v1.x/docs/code has lots of examples
 - https://www.youtube.com/watch?v=sGTRmPiXD4Y
 
 Concepts:
