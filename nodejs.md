@@ -28,6 +28,12 @@ To learn more:
 - http://docs.libuv.org/en/v1.x/guide.html
 - https://www.youtube.com/watch?v=sGTRmPiXD4Y
 
+Concepts:
+
+- The event loop `uv_loop_t`: the default one is `uv_default_loop()`, which is used by Node.js
+- Handles `uv_handle_t`: requests
+- Requests `uv_request_t`: operations
+
 ### Thread Pool
 
 According to https://nodejs.org/api/cli.html#cli_uv_threadpool_size_size, the thread pool is used for:
