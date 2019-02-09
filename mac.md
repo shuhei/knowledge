@@ -63,5 +63,5 @@ https://serverfault.com/a/403097/225384
 OS X Sierra dropped `telnet`. Use `nc (netcat)` instead:
 
 ```sh
-nc
+nc localhost 3000
 ```
