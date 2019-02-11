@@ -179,7 +179,9 @@ curl -X PUT -H "application/json" -H "Authorization: Bearer $(some_command_to_ge
 
 ### gdb
 
+- Attach to a process: `sudo gdb -p ${pid}`
 - Show stack traces: `bt`
+- Show stack traces of all threads: `thread apply all bt`
 - Show registers: `i registers`
 - Examine an address: `x ${address}`
 - Show an instruction at an address: `x/i ${address}`
@@ -190,6 +192,9 @@ https://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf
 
 ### lldb
 
+- Attach to a process: `lldb -p ${pid}`
+- Show stack traces: `bt`
+- Show stack traces of all threads: `bt all`
 - Show registers: `reg read`
 - Show an instruction at an address: `x/i ${address}`
 - Show 10 instructions starting from an address: `x/10i ${address}`
