@@ -71,10 +71,14 @@ nc localhost 3000
 - https://github.com/slozo/Network-listener/blob/master/Network%20Listener/AppDelegate.m
 - https://gist.github.com/ftiff/f482fd1280cb6a5ca77a55b08b332396
 
-You can use `scutil` (System Configuration Utililty) to investigate the keys that are used with [SCDynamicStore](https://developer.apple.com/documentation/systemconfiguration/scdynamicstore-gb2) like `State:/Network/Global/IPv4` or `State:/Network/Interface/en0/AirPort`.
+You can use `scutil` (System Configuration Utililty) to investigate the dynamic store keys, which are used with [SCDynamicStore](https://developer.apple.com/documentation/systemconfiguration/scdynamicstore-gb2) and managed by `configd(8)`, like `State:/Network/Global/IPv4` or `State:/Network/Interface/en0/AirPort`.
 
 ```sh
 $ scutil
+> help
+...
+> list
+...(list of keys)...
 > show State:/Network/Interface
 <dictionary> {
   Interfaces : <array> {
