@@ -65,3 +65,8 @@ OS X Sierra dropped `telnet`. Use `nc (netcat)` instead:
 ```sh
 nc localhost 3000
 ```
+
+### Monitor Network Changes
+
+- https://github.com/slozo/Network-listener/blob/master/Network%20Listener/AppDelegate.m
+- https://gist.github.com/ftiff/f482fd1280cb6a5ca77a55b08b332396
