@@ -9,7 +9,6 @@
 ```
 
 - Some of the symbols that have special meanings in regular expression have to be escaped
-  - `()`for grouping needs to be escaped as `\(\)`
-  - `+` needs to be escaped as `\+`
-  - `*` doesn't need to be escaped somehow...
+  - Escape: `()` -> `\(\)`, `{n}` -> `\{n}` (only one `\`!), `+` -> `\+`
+  - No escape: `[]`, `*`
 - Backreferences are available with `\1`, `\2`, and so on
