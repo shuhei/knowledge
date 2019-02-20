@@ -22,3 +22,5 @@ Borrowing makes a Reference.
 
 - Immutalbe reference (`&`): References are immutable by default
 - Mutable reference (`&mut`): A mutable reference cannot co-exist with other references (immutable or mutable)
+
+A slice is a reference to a part of array, string, etc.
