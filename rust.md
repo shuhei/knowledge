@@ -16,14 +16,14 @@ A variable's ownership goes away when:
 
 (`Copy` trait doesn't work for types with `Drop`. Drop cleans up heap, but `Copy` is for types without data in heap.)
 
-## References and Borrowing
+### References and Borrowing
 
 Borrowing makes a Reference.
 
 - Immutalbe reference (`&`): References are immutable by default
 - Mutable reference (`&mut`): A mutable reference cannot co-exist with other references (immutable or mutable)
 
-## Slices
+### Slices
 
 - A slice is a reference to a part of array, string, etc.
 - String literals are slices (`&str`), which are immutable references to the binary's data region
