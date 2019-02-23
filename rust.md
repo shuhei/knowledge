@@ -33,7 +33,7 @@ Borrowing makes a Reference.
 Methods that keep wrapping (`Option -> Option`/`Result -> Result`):
 
 - `or`: provides a default value `Option<T>`/`Result<T, F>` keeping `Option/Result`
-  - Similar to `withDefault`, but `or` can change the error type of `Result`
+  - Similar to `withDefault` of Elm, but `or` can change the error type of `Result`
 - `or_else`: provides a default value with a function `() -> Option<T>`/`(E) -> Result<T, F>` keeping `Option/Result`
   - It can change the error type of `Result`
 - `and_then`: `>>=` of Haskell, `andThen` of Elm, `flatMap` of Scala
