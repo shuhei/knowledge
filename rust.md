@@ -30,13 +30,27 @@ Borrowing makes a Reference.
 
 ## Option/Result
 
-- `or`: provides a default value `Option<T>`/`Result<T, F>`
-  - It can change the error type of `Result`
-- `or_else`: provides a default value with a function `() -> Option<T>`/`(E) -> Result<T, F>`
+Methods that keep wrapping (`Option -> Option`/`Result -> Result`):
+
+- `or`: provides a default value `Option<T>`/`Result<T, F>` keeping `Option/Result`
+  - Similar to `withDefault`, but `or` can change the error type of `Result`
+- `or_else`: provides a default value with a function `() -> Option<T>`/`(E) -> Result<T, F>` keeping `Option/Result`
   - It can change the error type of `Result`
 - `and_then`: `>>=` of Haskell, `andThen` of Elm, `flatMap` of Scala
 - `and`: does `and_then` with a value instead of a function
 - `map_or`: does `map` and `or` at once
 - `map_or_else`: does `map` and `or_else` at once
+
+Unwrapping methods unwrap:
+
+- `unwrap`: unwraps the value of `Some`/`Ok` and panics for `None`/`Err`
+- `unwrap_or`: `unwrap` but returns a provided default value for `None`/`Err` instead of panicking
+  - `withDefault` of Elm
+- `unwrap_or_else`: `unwrap_or` with a function
+- `unwrap_or_default`: `unwrap_or` but with the default value from `Default` trait
+- `unwrap_err` (only for `Result`): unwraps the error of `Err` and panics for `Some`
+
+Conversion (only for `Option`):
+
 - `ok_or`: converts a `Option<T>` to `Result<T, E>` with a provided default value
 - `ok_or_else`: does `ok_or` with a function
