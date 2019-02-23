@@ -48,7 +48,7 @@ Unwrapping methods:
   - `withDefault` of Elm
 - `unwrap_or_else`: `unwrap_or` with a function
 - `unwrap_or_default`: `unwrap_or` but with the default value from `Default` trait
-- `unwrap_err` (only for `Result`): unwraps the error of `Err` and panics for `Some`
+- `unwrap_err` (only for `Result`): unwraps the error of `Err` and panics for `Ok`
 
 Conversion (only for `Option`):
 
