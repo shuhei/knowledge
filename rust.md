@@ -27,3 +27,16 @@ Borrowing makes a Reference.
 
 - A slice is a reference to a part of array, string, etc.
 - String literals are slices (`&str`), which are immutable references to the binary's data region
+
+## Option/Result
+
+- `or`: provides a default value `Option<T>`/`Result<T, F>`
+  - It can change the error type of `Result`
+- `or_else`: provides a default value with a function `() -> Option<T>`/`(E) -> Result<T, F>`
+  - It can change the error type of `Result`
+- `and_then`: `>>=` of Haskell, `andThen` of Elm, `flatMap` of Scala
+- `and`: does `and_then` with a value instead of a function
+- `map_or`: does `map` and `or` at once
+- `map_or_else`: does `map` and `or_else` at once
+- `ok_or`: converts a `Option<T>` to `Result<T, E>` with a provided default value
+- `ok_or_else`: does `ok_or` with a function
