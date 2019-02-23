@@ -41,7 +41,7 @@ Methods that keep wrapping (`Option -> Option`/`Result -> Result`):
 - `map_or`: does `map` and `or` at once
 - `map_or_else`: does `map` and `or_else` at once
 
-Unwrapping methods unwrap:
+Unwrapping methods:
 
 - `unwrap`: unwraps the value of `Some`/`Ok` and panics for `None`/`Err`
 - `unwrap_or`: `unwrap` but returns a provided default value for `None`/`Err` instead of panicking
