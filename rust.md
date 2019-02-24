@@ -54,3 +54,9 @@ Conversion (only for `Option`):
 
 - `ok_or`: converts a `Option<T>` to `Result<T, E>` with a provided default value
 - `ok_or_else`: does `ok_or` with a function
+
+## Error Handling
+
+Use [failure crate](https://github.com/rust-lang-nursery/failure), especially https://rust-lang-nursery.github.io/failure/error-errorkind.html.
+
+For explicit early return, use `Err(ErrorKind::Foo)?;` instead of `return Err(ErrorKind::Foo);` (compile error) because `?` applies conversion with `from()`.
