@@ -60,3 +60,17 @@ Conversion (only for `Option`):
 Use [failure crate](https://github.com/rust-lang-nursery/failure), especially https://rust-lang-nursery.github.io/failure/error-errorkind.html.
 
 For explicit early return, use `Err(ErrorKind::Foo)?;` instead of `return Err(ErrorKind::Foo);` (compile error) because `?` applies conversion with `from()`.
+
+## Modules
+
+https://doc.rust-lang.org/book/ch07-02-modules-and-use-to-control-scope-and-privacy.html
+
+- Use `use crate::foo;` instead of `use self::foo;` to make it easier to move files around
+- It's idiomatic to import:
+  - function's parent module for functions
+    ```rs
+    use foo::bar;
+    
+    bar::baz();
+    ```
+  - enums, struct, etc. directly
