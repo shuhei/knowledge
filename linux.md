@@ -175,6 +175,14 @@ Wrap URL in a quote. Otherwise `&` in GET query parameters messes up your comman
 curl -X PUT -H "application/json" -H "Authorization: Bearer $(some_command_to_get_token)" -v "https://foo.bar/baz?a=123&b=234" -d '{"ja":"nein"}'
 ```
 
+### figlet
+
+Display large ASCII-art characters.
+
+```sh
+echo 'Hello, World! | figlet
+```
+
 ## Debugging
 
 ### gdb
