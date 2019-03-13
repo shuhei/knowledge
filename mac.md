@@ -50,6 +50,12 @@ https://www.quora.com/What-is-the-best-way-to-use-Atom-io-over-SSH/answer/Ryan-C
 
 ## Netowork
 
+### Get a local IP address
+
+```sh
+ipconfig getifaddr en0
+```
+
 ### Test multiple IP addresses on local:
 
 ```sh
