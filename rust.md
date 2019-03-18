@@ -28,6 +28,29 @@ Borrowing makes a Reference.
 - A slice is a reference to a part of array, string, etc.
 - String literals are slices (`&str`), which are immutable references to the binary's data region
 
+### Tips
+
+#### Swap fields in a struct
+
+```rs
+struct Something {
+  prev: Foo;
+  cur: Foo;
+}
+
+impl Something {
+  fn set_foo(&self, foo: Foo) {
+    self.prev = self.cur; // <-- cannot move out of borrowed content
+    self.cur = foo;
+    
+    // Use std::mem instead!
+    self.prev = std::mem::replace(&mut self.last, foo);
+  }
+}
+```
+
+https://stackoverflow.com/questions/35649968/how-to-swap-two-fields-of-a-struct
+
 ## Option/Result
 
 Methods that keep wrapping (`Option -> Option`/`Result -> Result`):
