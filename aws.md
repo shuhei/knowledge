@@ -34,3 +34,8 @@ https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/how-elastic-lo
   - Classic ELB: Configurable
 - Access log is opt-in.
   - To find load balancer 5xx: `grep ' 5[0-9]\{2\} - ' ${log_file}`
+
+## CloudTrail
+
+- All activities are recorded. Useful for post mortem.
+- [Route53 events are available in "US East (N. Virginia)" region somehow.](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/logging-using-cloudtrail.html)
