@@ -102,8 +102,14 @@ https://doc.rust-lang.org/book/ch07-02-modules-and-use-to-control-scope-and-priv
 ## Traits
 
 - `PartialEq` vs `Eq`
-  - `PaftialEq`: symmetric `a == b -> b == a` and transitive `a == b and b == c -> a == c`, but doesn't need to be reflexive `a == a` (For example, `NaN != NaN` in floating point numbers)
+  - `PaftialEq`
+    - symmetric `a == b -> b == a`
+    - transitive `a == b and b == c -> a == c`
+    - But doesn't need to be reflexive `a == a` (For example, `NaN != NaN` in floating point numbers)
   - `Eq`: `PartialEq` + reflexive `a == a`
 - `PartialOrd` vs `Ord`
-  - `PartialOrd`: antisymmetric `a < b -> !(a > b)` `a > b -> !(a < b)`, transitive `a < b and b < c -> a < c`, but doesn't need to be total (For example, `NaN < 0 == false` and `NaN >= 0 == false` for floating point numbers
+  - `PartialOrd`:
+    - antisymmetric `a < b -> !(a > b)` `a > b -> !(a < b)`
+    - transitive `a < b and b < c -> a < c`
+    - But doesn't need to be total (For example, `NaN < 0 == false` and `NaN >= 0 == false` for floating point numbers)
   - `Ord`: `PatialOrd` + total (exactly one of `a < b`, `a == b`, `a > b` is true)
