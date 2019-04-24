@@ -258,3 +258,7 @@ https://nodejs.org/api/addons.html
     },
   });
   ```
+- Have a `server.keepAliveTimeout` longer than idle connection timeout of clients
+  - The default is 5 seconds
+  - Otherwise clients including proxies may get TCP connection errors
+    - AWS ELB marks ELB 502 for this (ELB's idle timeout is 60 seconds by default)
