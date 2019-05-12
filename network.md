@@ -17,3 +17,11 @@
 - HTTP - On top of TCP.
 - HTTPS - On top of TLS.
   - [RFC 2818 - The Secure HyperText Transfer Protocol](https://tools.ietf.org/html/rfc2818)
+
+## TCP
+
+- Sequence number and acknowledge number
+  - Sequence number: the total bytes that are sent up to (not including) the current packet
+  - Acknowledge number: the total bytes that are received up to (not including) the current packet
+  - `SYN` and `FIN` are considered as one byte
+  - http://packetlife.net/blog/2010/jun/7/understanding-tcp-sequence-acknowledgment-numbers/
