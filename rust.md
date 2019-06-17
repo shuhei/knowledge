@@ -113,3 +113,6 @@ https://doc.rust-lang.org/book/ch07-02-modules-and-use-to-control-scope-and-priv
     - transitive `a < b and b < c -> a < c`
     - But doesn't need to be total (For example, `NaN < 0 == false` and `NaN >= 0 == false` for floating point numbers)
   - `Ord`: `PatialOrd` + total (exactly one of `a < b`, `a == b`, `a > b` is true)
+- `Iterator` vs `IntoIterator`
+  - `Iterator` keeps a pointer to the current item and is inherently mutable. `Vec<T>` is **not** an `Iterator`.
+  - `IntoIterator` can create a `Iterator`. Useful for `for .. in` loop. `Vec<T>` is an `IntoIterator`.
