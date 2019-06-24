@@ -14,3 +14,18 @@
 ```
 :%s/Array<\([^>]*\)>/\1[]/g
 ```
+
+## Tips
+
+### Transform the current buffer with a command
+
+```vim
+:%! <command>
+```
+
+For example:
+
+```vim
+:%! prettier
+:%! sort
+```
