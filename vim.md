@@ -29,3 +29,5 @@ For example:
 :%! prettier
 :%! sort
 ```
+
+https://vi.stackexchange.com/questions/5835/how-to-run-bash-command-over-current-file-and-replace-buffer-with-result
