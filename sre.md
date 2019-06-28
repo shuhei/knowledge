@@ -13,10 +13,16 @@ See:
 
 More?
 
-- Concurrency limit
-  - Adaptive concurrency limit
+- concurrency limit
+  - adaptive concurrency limit
     - https://medium.com/@NetflixTechBlog/performance-under-load-3e6fa9a60581
     - https://github.com/Netflix/concurrency-limits
+
+## Performance Modeling
+
+- Queing Theory https://en.wikipedia.org/wiki/Queueing_theory
+  - [M/M/1 queue](https://en.wikipedia.org/wiki/M/M/1_queue)
+  - [M/M/c queue](https://en.wikipedia.org/wiki/M/M/c_queue)
 
 ## Weekly Review
 
