@@ -30,11 +30,13 @@ The cheapest and lightest grill with legs available in Berlin would be something
 - Biererei - My favorite. Get beer in a growler.
 - Biererei Bar - Nice tap beers. A beer cellar!
 - Protokol - Nice tap beers including Russian craft beer
-- Muted Horn
-- Brewdog - Nice casual atmosphere. Delicious pizza.
-- BRLO - A brewery in Kreuzberg. Interesting food.
+- Muted Horn - Top-notch beer selection
+- Brewdog - Nice casual atmosphere. Delicious pizza. Cans and bottles to take away.
+- BRLO - A brewery in Kreuzberg. Delicious but a bit pricy food. A big beer garden in summer.
 - Straßenbräu - A brewery in Friedrichshain
-- Birra - Italian craft beer
+- Birra - An Italian craft beer bar in Prenzlauer Berg
+- Lager Lager - A craft beer bar of nice atmosphere
+- Two Fellas Brewery - A classy bar with a beer garden. Simple and delicious pizza. Irish music every Sunday night.
 - [Muse](http://www.museberlin.com/) - A restaurant with beer by Fuerst Wiacek
 
 ## Japanese Food
@@ -42,7 +44,7 @@ The cheapest and lightest grill with legs available in Berlin would be something
 Restaurants:
 
 - Harapeco - Good Okonomiyaki (Japanese pancake). 10 seconds away from Straßenbräu!
-- Daruma - A small shop where you can eat food and buy groceries. Authentic food like at a canteen in Japan.
+- (Closed) ~~Daruma - A small shop where you can eat food and buy groceries. Authentic food like at a canteen in Japan.~~
 - Momiji - Good Takoyaki.
 - Tenzan Lab - Good Kakigori (shaved ice). Hojicha Mascarpone was nice. Also Sakekasu if you like sake.
 - Ishin - Reasonable sushi with reasonable price.
@@ -52,7 +54,7 @@ Groceries:
 
 - Go Asia
   - Marutai Ramen Oita and Nagasaki are the best ramens that I can buy in Berlin
-- Daruma
+- (Closed) ~~Daruma~~
 
 ## Cake
 
