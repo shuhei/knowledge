@@ -119,3 +119,10 @@ Terms:
 ## Gym
 
 - [Send a letter to cancel a membership](https://www.reddit.com/r/berlin/comments/8q7y8w/how_do_i_give_mcfit_gym_cancellation_notice/)
+
+## Bikes
+
+### Shops
+
+- Decathlon has inexpensive and good bikes
+- You can try bikes at [Stadler](https://shop.zweirad-stadler.de/) shops
