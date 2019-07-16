@@ -1,5 +1,13 @@
 # Mac
 
+## Command-line Tools
+
+Use the command-line tools from XCode:
+
+```sh
+sudo xcode-select --switch /Applications/Xcode.app
+```
+
 ## VirutalBox
 
 ### SSH into a guest OS
