@@ -8,6 +8,8 @@
 
 #### Hooks
 
+- Use [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks), especially `exhaustive-deps`
+  - Otherwise, it's very hard to get dependencies of `useEffect`, `useCallback`, etc. straight
 - `useState`: differences between `setState() ` and `setValue()` for `const [value, setValue] = useState(init);`
   - `setValue()` doesn't trigger re-render if the state doesn't change (using `Object.is()`)
   - `setValue()` doesn't take a callback argument
