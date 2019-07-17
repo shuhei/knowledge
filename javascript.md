@@ -1,6 +1,17 @@
 # JavaScript
 
+- `Object.is()`: almost same as `===`, but finds `NaN` and `NaN` as equal and `+0` and `-0` as not equal.
+
 ## Libraries
+
+### React
+
+#### Hooks
+
+- `useState`: differences between `setState() ` and `setValue()` for `const [value, setValue] = useState(init);`
+  - `setValue()` doesn't trigger re-render if the state doesn't change (using `Object.is()`)
+  - `setValue()` doesn't take a callback argument
+- `useRef`: in addition to the usage with `ref` prop, it's useful for creating a mutal reference shared across multiple renders (doesn't need to be listed in the dependencies list of `useEffect`, etc.)
 
 ### Jest
 
