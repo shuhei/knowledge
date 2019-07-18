@@ -14,6 +14,7 @@
   - `setValue()` doesn't trigger re-render if the state doesn't change (using `Object.is()`)
   - `setValue()` doesn't take a callback argument
 - `useRef`: in addition to the usage with `ref` prop, it's useful for creating a mutal reference shared across multiple renders (doesn't need to be listed in the dependencies list of `useEffect`, etc.)
+- Good examples https://github.com/streamich/react-use
 
 ### Jest
 
