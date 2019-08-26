@@ -180,7 +180,7 @@ curl -X PUT -H "application/json" -H "Authorization: Bearer $(some_command_to_ge
 Display large ASCII-art characters.
 
 ```sh
-echo 'Hello, World! | figlet
+echo 'Hello, World!' | figlet
 ```
 
 ## Debugging
