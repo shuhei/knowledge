@@ -17,6 +17,12 @@
 - `str.length()` for the length (not `.length` like an array!)
 - `str.charAt(index)` to get the `char` at the index
 
+### Collections
+
+- Stack: `ArrayList` is faster than `Stack`?
+- Heap: `PriorityQueue` with `Comparator`
+- Double-ended queue: `ArrayDeque` or `LinkedList` https://stackoverflow.com/questions/6163166/why-is-arraydeque-better-than-linkedlist
+
 ## Concurrency
 
 - `volatile` on a variable prevents the variable from being cached in a thread (puts the variable in the main memory instead of CPU cache)
