@@ -19,9 +19,11 @@
 
 ### Collections
 
-- Stack: `ArrayList` is faster than `Stack`?
-- Heap: `PriorityQueue` with `Comparator`
+- Stack: Use `ArrayDeque`
+- Heap: Use `PriorityQueue` (min heap). For a max heap, `new PriorityQueue<>(Collections.reverseOrder())`
+  - Min heap is useful for finding `k` largest items from a large list. Max heap is useful for finding `k` smallest items.
 - Double-ended queue: `ArrayDeque` or `LinkedList` https://stackoverflow.com/questions/6163166/why-is-arraydeque-better-than-linkedlist
+  - A queue can be implemented with two stacks or a dynamically resizin ring buffer (both `O(n)` amortized time complexity)
 
 ## Concurrency
 
