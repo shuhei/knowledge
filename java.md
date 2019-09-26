@@ -5,7 +5,7 @@
 ### int, Integer
 
 - `Integer -> int`: `integer.intValue()`
-- `Integer`: Use `equals()` for equality check. Use `compareTo()` or `Integer.compare()` for comparison.
+- `Integer`: Use `equals()` for equality check. Use `compareTo()` or `Integer.compare()` instead of `<=` or `>=`.
 
 ### char, Character
 
