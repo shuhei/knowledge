@@ -16,3 +16,9 @@
 - [Kichijoji] Harmonica Yokocho
 - [Shinjuku 3-Chome] Tamura - Yakitori (chiken skewers)
 - [Shimbashi, etc.] Uokin - Fish
+
+## Day Trips
+
+- Traditional
+  - Kamakura
+  - Kawagoe
