@@ -35,7 +35,8 @@ The cheapest and lightest grill with legs available in Berlin would be something
 - BRLO - A brewery in Kreuzberg. Delicious but a bit pricy food. A big beer garden in summer.
 - Straßenbräu - A brewery in Friedrichshain
 - Birra - An Italian craft beer bar in Prenzlauer Berg
-- Lager Lager - A craft beer bar of nice atmosphere
+- Lager Lager - A craft beer bar of nice atmosphere. Also sells cans, bottles and growler fill!
+- Lager Lager Mitte - A craft beer shop that sells cans, bottles and growler fill.
 - Two Fellas Brewery - A classy bar with a beer garden. Simple and delicious pizza. Irish music every Sunday night.
 - [Muse](http://www.museberlin.com/) - A restaurant with beer by Fuerst Wiacek
 
