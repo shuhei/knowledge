@@ -61,3 +61,13 @@ jest.mock('./SomeClass', () => {
   return SomeClass;
 });
 ```
+
+## Tools
+
+### Yarn
+
+To make sure that `yarn.lock` is not updated in CI/CD:
+
+```sh
+yarn --frozen-lockfile
+```
