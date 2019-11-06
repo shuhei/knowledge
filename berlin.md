@@ -21,7 +21,7 @@ Most of the supermarkets in Berlin are closed on Sunday and holidays. If you hav
 
 According to [Tempelhofer Feld's website](https://gruen-berlin.de/en/tempelhofer-feld/visitor-information),
 
->Barbecues must be on legs at least 20 cm above the ground so as not to destroy the grass.
+> Barbecues must be on legs at least 20 cm above the ground so as not to destroy the grass.
 
 The cheapest and lightest grill with legs available in Berlin would be something like https://www.amazon.de/dp/B00009ENI7. I found one at [REWE at Rollbergstraße 59](https://www.rewe.de/marktseite/berlin-neukoelln/4040274/rewe-markt-rollbergstrasse-59/).
 
@@ -49,13 +49,16 @@ Restaurants:
 - Momiji - Good Takoyaki.
 - Tenzan Lab - Good Kakigori (shaved ice). Hojicha Mascarpone was nice. Also Sakekasu if you like sake.
 - Ishin - Reasonable sushi with reasonable price.
-- Takumi Nine - Good *miso* ramen.
+- Takumi Nine - Good _miso_ ramen
+- Kadoya - Good clear-broth _shio_ ramen and _izakaya_ dishes
+- Sasaya
 
 Groceries:
 
 - Go Asia
   - Marutai Ramen Oita and Nagasaki are the best ramens that I can buy in Berlin
 - (Closed) ~~Daruma~~
+- Sasaya - Sasaya has a tiny Sake shop next to the restaurant. It has a good selection of Sake and a little bit of other drinks like Shochu and Umeshu.
 
 ## Cake
 
