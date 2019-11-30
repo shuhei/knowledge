@@ -40,6 +40,11 @@ The cheapest and lightest grill with legs available in Berlin would be something
 - Two Fellas Brewery - A classy bar with a beer garden. Simple and delicious pizza. Irish music every Sunday night.
 - [Muse](http://www.museberlin.com/) - A restaurant with beer by Fuerst Wiacek
 
+## Coffee
+
+- Kajumi - The best coffee shop in Berlin (my opinion)
+- Friedl
+
 ## Japanese Food
 
 Restaurants:
