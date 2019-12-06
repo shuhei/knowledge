@@ -8,6 +8,7 @@
 ## Ramen
 
 - [Shimokitazawa] Ichiryu - My favorite
+- Ramen is a dish that is rated well on the internet. Find ramen shops with good ratings on Tabelog.
 
 ## Izakaya
 
