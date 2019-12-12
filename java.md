@@ -9,6 +9,7 @@
 
 ### char, Character
 
+- [`char` has 16 bits](https://docs.oracle.com/javase/tutorial/i18n/text/unicode.html) to represent a UTF-16 character
 - `char '0' - '9'` to `int` digit: `int digit = c - '0';` or `int digit = Character.digit(c, 10);`
 - `char 'a' - 'z'` to `int` index: `int index = c - 'a';`
   - Useful for using an array of alphabets `new T[26]` instead of `new HashMap<Character, T>()`
