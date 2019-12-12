@@ -34,12 +34,12 @@
   - `containsKey(key)` to check if it has the given key
   - `put(key, value)` to add an entry
   - To loop through entries:
-        ```
-        for (Map.Entry<K, V> entry : map.entrySet()) {
-          K key = entry.getKey();
-          V value = entry.getValue();
-        }
-        ```
+    ```java
+    for (Map.Entry<K, V> entry : map.entrySet()) {
+      K key = entry.getKey();
+      V value = entry.getValue();
+    }
+    ```
 
 ## Concurrency
 
