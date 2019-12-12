@@ -26,6 +26,14 @@
   - Min heap is useful for finding `k` largest items from a large list. Max heap is useful for finding `k` smallest items.
 - Double-ended queue: `ArrayDeque` or `LinkedList` https://stackoverflow.com/questions/6163166/why-is-arraydeque-better-than-linkedlist
   - A queue can be implemented with two stacks or a dynamically resizin ring buffer (both `O(n)` amortized time complexity)
+- Set
+  - `contains(value)` to check if it has the given value
+  - `add(value)` to add a value
+  - An array to `Set`: `new HashSet<>(Arrays.asList(array))`
+- Map
+  - `containsKey(key)` to check if it has the given key
+  - `put(key, value)` to add an entry
+  - `for (Map.Entry<K, V> entry : map.entrySet()) { K key = entry.getKey(); V value = entry.getValue(); }` to loop through entries
 
 ## Concurrency
 
