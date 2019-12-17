@@ -11,9 +11,22 @@
 
 `Array<Foo>` -> `Foo[]`:
 
-```
+```vim
 :%s/Array<\([^>]*\)>/\1[]/g
 ```
+
+## How plugins work
+
+- http://learnvimscriptthehardway.stevelosh.com/chapters/42.html
+- `:help plugins`
+
+### Check which plugins are loaded
+
+```vim
+:scriptnames
+```
+
+[How do I list loaded plugins in Vim?](https://stackoverflow.com/questions/48933/how-do-i-list-loaded-plugins-in-vim)
 
 ## Tips
 
