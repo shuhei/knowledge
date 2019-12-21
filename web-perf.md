@@ -33,4 +33,5 @@
 
 ## Resources
 
+- [Web Performance Calendar](https://calendar.perfplanet.com/)
 - [Chasing Waterfalls](https://chasingwaterfalls.io/) (podcast)
