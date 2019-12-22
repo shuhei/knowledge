@@ -1,6 +1,6 @@
 # Web Performance
 
-- Read [Web Fundamentals](https://developers.google.com/web/fundamentals/performance/why-performance-matters/).
+Read [Web Fundamentals](https://developers.google.com/web/fundamentals/performance/why-performance-matters/).
 
 ## Runtime Optimization
 
@@ -31,7 +31,7 @@
 
 - Use `precision: 1` option of [SVGO](https://github.com/svg/svgo) for SVG images. The option works very well but it's not well-known.
 
-## Resources
+## More resources
 
 - [Web Performance Calendar](https://calendar.perfplanet.com/)
 - [Chasing Waterfalls](https://chasingwaterfalls.io/) (podcast)

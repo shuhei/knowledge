@@ -1,12 +1,14 @@
 # AWS
 
-## VPC
+## Network
+
+### VPC
 
 - A VPC has subnets in multiple Availability Zones.
 - Subnets can be private or public.
 - "AZ A" of an AWS account can be phisically located differently from "AZ A" of another account.
 
-## NAT Gateway
+### NAT Gateway
 
 https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-nat-gateway.html
 
@@ -15,7 +17,7 @@ https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-nat-gateway.html
 - NAT Gateway has a private IP and a public IP.
 - If NAT Gateway cost is too high, consider putting EC2 instances in a public subnet of VPC.
 
-## VPC Flow Log
+### VPC Flow Log
 
 https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/flow-logs.html
 
@@ -24,7 +26,9 @@ https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/flow-logs.html
 - Need a Network Interface ID to find the right log file. If you use autoscaling, record the mapping of intance ID, private IP, (public IP if exists) and Network Interface ID somewhere. Otherwise the mapping is lost and you cannot look back.
 - Keep in mind that IP address is considered as personal data
 
-## Load Balancer
+## EC2
+
+### Elastic Load Balancer
 
 https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/how-elastic-load-balancing-works.html
 
@@ -34,6 +38,10 @@ https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/how-elastic-lo
   - Classic ELB: Configurable
 - Access log is opt-in.
   - To find load balancer 5xx: `grep ' 5[0-9]\{2\} - ' ${log_file}`
+
+### Auto Scaling Group
+
+- To manually scale up an ASG and leave it for a while, update its "Minimum" and "Desired" instance counts.
 
 ## CloudTrail
 
