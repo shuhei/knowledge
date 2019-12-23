@@ -71,3 +71,9 @@ To make sure that `yarn.lock` is not updated in CI/CD:
 ```sh
 yarn --frozen-lockfile
 ```
+
+### Cypress
+
+- Assert element's attribute: `cy.get('.foo').should('have.attr', 'attribute value');`
+- Assert element's property: `cy.get('.foo').should('have.prop', 'prop value');`
+- Custom assertion against elements with retries: `cy.get('.foo').should($foo => { /* custom assertions here */ });`
