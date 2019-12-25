@@ -47,3 +47,7 @@ HDR Histogram is basically a big array with dynamic resizing.
 - 2048-3071 covers 2048-4095 with precision 2
 - 3072-4095 covers 4097-8191 with precision 4
 - and so on
+
+## Load Balancing Algorithms
+
+- [Deterministic Aperture](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/daperture-load-balancer.html)
