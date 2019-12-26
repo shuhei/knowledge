@@ -63,6 +63,26 @@ List<T> list = someCollection.stream()
   .collect(Collectors.toList());
 ```
 
+## Syntax
+
+### Access Levels
+
+- A class can be:
+  - package-private (default)
+  - public
+- A class member can be:
+  - private
+  - package-private (default)
+  - protected (package-private + accessible to subclasses)
+    - If the class itself is public, protected members are part of the public API because users can depend on them
+  - public
+
+### final
+
+- A final class can't be subclassed.
+- A final method can't be overridden by subclasses.
+- A final variable/member can't be reassigned. However, it doesn't stop mutable objects from being mutated.
+
 ## Concurrency
 
 - `volatile` on a variable prevents the variable from being cached in a thread (puts the variable in the main memory instead of CPU cache)
