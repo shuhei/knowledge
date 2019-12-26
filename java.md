@@ -77,6 +77,14 @@ List<T> list = someCollection.stream()
     - If the class itself is public, protected members are part of the public API because users can depend on them
   - public
 
+### Nested classes
+
+- static member class
+- non-static member class
+  - A non-static member has an implicit reference to its enclosing class instance and has access to its members. Use static member class if possible because the reference costs time and space, and may cause memory leak.
+- anonymous class
+- local class
+
 ### final
 
 - A final class can't be subclassed.
