@@ -24,7 +24,13 @@
 - List:
   - Get an immutable empty list: `Collections.emptyList()`
   - An array to a list: `new ArrayList(Arrays.asList(array))`
-  - An primitive array to a list: boring, but `List<Integer> list = new ArrayList<>(); for (int n : nums) { list.add(n); }`
+  - A primitive array to a list:
+    ```java
+    List<Integer> list = new ArrayList<>();
+    for (int n : nums) {
+      list.add(n);
+    }
+    ```
 - Stack: Use `ArrayDeque`
 - Heap: Use `PriorityQueue` (min heap). For a max heap, `new PriorityQueue<>(Collections.reverseOrder())`
   - Min heap is useful for finding `k` largest items from a large list. Max heap is useful for finding `k` smallest items.
@@ -43,6 +49,10 @@
       K key = entry.getKey();
       V value = entry.getValue();
     }
+    // or
+    map.forEach((k, v) -> {
+      // Do something
+    });
     ```
 
 ### Streams
