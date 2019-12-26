@@ -15,3 +15,9 @@ References:
 
 - `e.g.` is for "for example"
 - `i.e.` is for "in essence"
+
+## Mathematics
+
+- `2 ^ 5`: "two raised to the fifth power" or "two to the fifth"
+- `5 ^ 2`: "five squared"
+- `5 ^ 3`: "five cubed"
