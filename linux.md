@@ -113,6 +113,13 @@ man man
 8. System administration commands (usually only for root)
 9. Kernel routines [Non standard]
 
+### du
+
+- [Why does the “du” command count in 4KB steps?](https://unix.stackexchange.com/questions/34331/why-does-the-du-command-count-in-4kb-steps)
+- Get summary of top-level files and directories including hidden ones: `du -hs $(ls -A)`
+  - sort the result on Mac: `du -hs $(ls -A) | gsort -hr`
+  - sort the result on Linux: `du -hs $(ls -A) | sort -hr`
+
 ### htop
 
 - Sort: `P` for CPU, `M` for memory, `T` for time
@@ -142,7 +149,7 @@ man man
 
 - Get an absolute path from a relative path: `realpath ./foo`
   - `readlink -f` also works
-  
+
 ### xxd
 
 - Make a hexdump of a file: `xxd ${file}`
