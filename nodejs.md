@@ -1,5 +1,11 @@
 # Node.js
 
+## REPL
+
+- Help: `.help`
+- Save evaluated lines in a file: `.save foo.js`
+- Load JS from a file: `.load foo.js`
+
 ## Event Loop
 
 Read [The Node.js Event Loop, Timers, and process.nextTick()](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/).
