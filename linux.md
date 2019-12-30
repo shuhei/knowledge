@@ -113,6 +113,11 @@ man man
 8. System administration commands (usually only for root)
 9. Kernel routines [Non standard]
 
+### diff
+
+- [Understanding of diff output](https://unix.stackexchange.com/questions/81998/understanding-of-diff-output)
+- `diff -u`'s output is similar to `git diff` and easier to understand
+
 ### du
 
 - [Why does the “du” command count in 4KB steps?](https://unix.stackexchange.com/questions/34331/why-does-the-du-command-count-in-4kb-steps)
