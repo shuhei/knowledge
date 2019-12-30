@@ -70,7 +70,8 @@ Groceries:
 - [Latodolce](http://www.latodolce.com/) - patisserie
 - [Komine](http://www.cafekomine.de/) - patisserie and cafe
 - [Hallmann & Klee](https://www.hallmann-klee.de/) - cafe
-- [Canal](https://www.canal.berlin/) - an icecream shop with very good eclairs
+- [Canal](https://www.canal.berlin/) - an icecream shop with beautiful eclairs
+- Les Pâtisseries de Sébastien - patisserie and cafe
 
 ## Insurance
 
