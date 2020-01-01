@@ -268,3 +268,7 @@ https://nodejs.org/api/addons.html
   - The default is 5 seconds
   - Otherwise clients including proxies may get TCP connection errors
     - AWS ELB marks ELB 502 for this (ELB's idle timeout is 60 seconds by default)
+
+## Writing a package
+
+- [peerDependenciesMeta](https://github.com/yarnpkg/rfcs/blob/master/accepted/0000-optional-peer-dependencies.md) for optional peer dependencies
