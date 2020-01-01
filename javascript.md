@@ -66,10 +66,24 @@ jest.mock('./SomeClass', () => {
 
 ### Yarn
 
+#### Optional peer dependencies
+
+Use [peerDependenciesMeta](https://github.com/yarnpkg/rfcs/blob/master/accepted/0000-optional-peer-dependencies.md). Available from npm@6.11.0 as well.
+
+#### CI
+
 To make sure that `yarn.lock` is not updated in CI/CD:
 
 ```sh
 yarn --frozen-lockfile
+```
+
+#### Upgrade across major versions
+
+```sh
+yarn upgrade --latest
+# or
+yarn upgrade-interactive --latest
 ```
 
 ### Cypress
