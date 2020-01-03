@@ -19,3 +19,18 @@ some_command 1> /dev/null 2> /dev/null
 ```
 
 `m>&n` means redirecting the file descriptor `m` to the same file that the file descriptor `n` redirects to. In this case, `2>&1` means that `2` (stderr) redirects to `/dev/null`, which `1` redirects to.
+
+## Ignore an error with `set -e` while keeping the exit status
+
+```sh
+set -e
+
+SOME_EXIT_STATUS
+do_something || SOME_EXIT_STATUS=$?
+
+# ... do something else
+
+if [ $SOME_EXIT_STATUS -ne 0 ]; then
+  exit $SOME_EXIT_STATUS
+fi
+```
