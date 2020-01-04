@@ -43,7 +43,7 @@ impl Something {
   fn set_foo(&self, foo: Foo) {
     self.prev = self.cur; // <-- cannot move out of borrowed content
     self.cur = foo;
-    
+
     // Use std::mem instead!
     self.prev = std::mem::replace(&mut self.last, foo);
   }
@@ -91,12 +91,15 @@ https://doc.rust-lang.org/book/ch07-02-modules-and-use-to-control-scope-and-priv
 
 - Use `use crate::foo;` instead of `use self::foo;` to make it easier to move files around
 - It's idiomatic to import:
+
   - function's parent module for functions
+
     ```rs
     use foo::bar;
-    
+
     bar::baz();
     ```
+
   - enums, struct, etc. directly
 
 ## Traits
@@ -116,3 +119,8 @@ https://doc.rust-lang.org/book/ch07-02-modules-and-use-to-control-scope-and-priv
 - `Iterator` vs `IntoIterator`
   - `Iterator` keeps a pointer to the current item and is inherently mutable. `Vec<T>` is **not** an `Iterator`.
   - `IntoIterator` can create a `Iterator`. Useful for `for .. in` loop. `Vec<T>` is an `IntoIterator`.
+
+## Cargo
+
+- Make it easier to manage project dependencies: Install [cargo-edit](https://github.com/killercup/cargo-edit)
+- `extern crate foo` is not necessary in the 2018 edition
