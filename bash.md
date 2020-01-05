@@ -34,3 +34,13 @@ if [ $SOME_EXIT_STATUS -ne 0 ]; then
   exit $SOME_EXIT_STATUS
 fi
 ```
+
+## Expansions
+
+### Brace expansion
+
+```sh
+mv foo/bar/baz.{js,ts}
+# is expanded to:
+mv foo/bar/baz.js foo/bar/baz.ts
+```
