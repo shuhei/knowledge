@@ -55,12 +55,16 @@
     });
     ```
   - `LinkedHashMap` for maintaining insertion order or access order of the entries
-    - Insertion order: default
-      - Insertion order is **not** updated by re-insertion.
-    - Access order:
-      - `new LinkedHashMap(initialCapacity, loadFactor, true)`
-      - Access order is **not** updated by `containsKey`.
-      - Access order is updated by `get()`, `put()`, `compute()` and their friends.
+    - A combination of a hash map and a doubly linked list. Main operations are still `O(1)`.
+    - Orders
+      - Insertion order: default
+        - Insertion order is **not** updated by re-insertion.
+      - Access order:
+        - `new LinkedHashMap(initialCapacity, loadFactor, true)`
+        - Access order is **not** updated by `containsKey`.
+        - Access order is updated by `get()`, `put()`, `compute()` and their friends.
+  - `TreeMap` is a map with key ordering
+    - It's a Red-Black tree. Main operations are `O(log n)`.
 
 ### Streams
 
