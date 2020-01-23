@@ -54,6 +54,13 @@
       // Do something
     });
     ```
+  - `LinkedHashMap` for maintaining insertion order or access order of the entries
+    - Insertion order: default
+      - Insertion order is **not** updated by re-insertion.
+    - Access order:
+      - `new LinkedHashMap(initialCapacity, loadFactor, true)`
+      - Access order is **not** updated by `containsKey`.
+      - Access order is updated by `get()`, `put()`, `compute()` and their friends.
 
 ### Streams
 
