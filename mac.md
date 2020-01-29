@@ -113,3 +113,15 @@ $ scutil
   ...
 }
 ```
+
+## How-to
+
+### Compress big PDF files
+
+```sh
+brew install ghostscript
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
+```
+
+- https://gist.github.com/firstdoit/6390547
+- https://www.ghostscript.com/doc/9.50/Use.htm
