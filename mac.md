@@ -56,7 +56,7 @@ sshfs ${linux_host}:/ ~/rdev/remote
 
 https://www.quora.com/What-is-the-best-way-to-use-Atom-io-over-SSH/answer/Ryan-Cheu
 
-## Netowork
+## Network
 
 ### Get a local IP address
 
