@@ -23,6 +23,12 @@ https://jestjs.io/en/
 - Good watch mode (interacitve mode and test file selection)
 - A bit slow due to environment isolation and Babel transpilation for each test file
   - Fast for Node.js: `{ testEnvironment: 'node', transform: {} }`
+  - For a project that contains both of client and server, put the comment at the beginning of each server test file:
+    ```js
+    /**
+     * @jest-environment node
+     */
+    ```
 
 #### Mocking a class
 
