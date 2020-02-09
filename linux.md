@@ -17,11 +17,11 @@ There are two queues:
 The journey of a TCP connection before it is accepted by an application:
 
 1. A SYN packet comes
-    - If SYN queue is not full, it is queued in the SYN queue. The server sends a SYN/ACK packet and waits for ACK to come. This waiting has a timeout and retries.
-    - If SYN queue is full, a SYN cookie is sent (TODO: when accept queue is full instead of SYN queue?) and the server forgets about the SYN packet. This is to mitigate SYN flooding. The client can still send ACK to it, but TCP options are ignored, etc.
+   - If SYN queue is not full, it is queued in the SYN queue. The server sends a SYN/ACK packet and waits for ACK to come. This waiting has a timeout and retries.
+   - If SYN queue is full, a SYN cookie is sent (TODO: when accept queue is full instead of SYN queue?) and the server forgets about the SYN packet. This is to mitigate SYN flooding. The client can still send ACK to it, but TCP options are ignored, etc.
 2. An ACK packet comes
-    - If accept queue is not full, it is queued in the accept queue and it waits for the application to `accept` it.
-    - If accept queue is full, the server just ignores it. This is a half open state. The client thinks that the connection is open, but it's not on the server. The client retransmits ACK and the client application observes a delay.
+   - If accept queue is not full, it is queued in the accept queue and it waits for the application to `accept` it.
+   - If accept queue is full, the server just ignores it. This is a half open state. The client thinks that the connection is open, but it's not on the server. The client retransmits ACK and the client application observes a delay.
 3. An application `accept`s the connection
 
 - http://veithen.github.io/2014/01/01/how-tcp-backlog-works-in-linux.html
@@ -48,7 +48,7 @@ The journey of a TCP connection before it is accepted by an application:
 
 [prometheus/node_exporter](https://github.com/prometheus/node_exporter) checks `/proc/net/netstat`. It has almost same information as `netstat -s`, but names are different. Their mapping is in the source code of [netstat -s](https://github.com/ecki/net-tools/blob/master/statistics.c).
 
-According to *Systems Performance*, useful ones are:
+According to _Systems Performance_, useful ones are:
 
 ```
 Ip
@@ -195,6 +195,14 @@ Display large ASCII-art characters.
 echo 'Hello, World!' | figlet
 ```
 
+### time
+
+- `real`: the actual time elapsed
+- `user`: the CPU time consumed by user space
+- `system`: the CPU time consumed by kernel space
+
+`real` can be smaller than `user` and `system` when multiple cores are utilized.
+
 ## Debugging
 
 ### gdb
@@ -255,7 +263,7 @@ VmSwap: Size of swapped pages (paged-out anonymous pages)
 
 ### `/proc/${pid}/cmdline`
 
-Commandline args separated and terminated by NULL
+Command-line args separated and terminated by NULL
 
 ## Cookbook
 
