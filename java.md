@@ -57,6 +57,25 @@
   - `contains(value)` to check if it has the given value
   - `add(value)` to add a value
   - An array to `Set`: `new HashSet<>(Arrays.asList(array))`
+  - Remove an item during an iteration
+    ```java
+    for (Iterator<T> it = set.iterator(); it.hasNext();) {
+      T item = it.next();
+      if (/* some condition */) {
+        it.remove();
+      }
+    }
+    ```
+    or
+    ```
+    Set<T> toRemove = new HashSet<>();
+    for (T item : set) {
+      if (/* some condition */) {
+        toRemove.add(item);
+      }
+    }
+    set.removeAll(toRemove);
+    ```
 - Map
   - `containsKey(key)` to check if it has the given key
   - `put(key, value)` to add an entry
