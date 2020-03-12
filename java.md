@@ -22,6 +22,7 @@
 
 - `str.length()` for the length (not `.length` like an array!)
 - `str.charAt(index)` to get the `char` at the index
+- Reverse a string: `new StringBuilder(str).reverse().toString()`
 
 ### Array
 
