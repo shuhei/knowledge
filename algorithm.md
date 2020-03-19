@@ -12,7 +12,10 @@
   - Undirected graph: union find and find a union for the same roots
 - Shortest path
   - Unweighted graph: BFS
-  - Non-negative-weighted graph: Dijkstra
+  - Non-negative-weighted graph
+    - Dijkstra (BFS-like)
+    - A\*
+      - A heuristics function must be "admissible" (never overestimate the cost) to provide the shortest path
 
 ## Computational geometry
 
