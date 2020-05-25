@@ -131,3 +131,5 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQ
 System Preferences -> Bluetooth -> Uncheck "Allow Bluetooth devices to wake this computer".
 
 - https://apple.stackexchange.com/a/89707/66857
+
+Make sure to connect the charger to the Macbook that you want to use closed because the bluetooth mouse can't wake it up.
