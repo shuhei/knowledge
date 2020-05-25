@@ -125,3 +125,9 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQ
 
 - https://gist.github.com/firstdoit/6390547
 - https://www.ghostscript.com/doc/9.50/Use.htm
+
+### Share a bluetooth mouse sequentially between two Macs
+
+System Preferences -> Bluetooth -> Uncheck "Allow Bluetooth devices to wake this computer".
+
+- https://apple.stackexchange.com/a/89707/66857
