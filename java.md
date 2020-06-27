@@ -155,3 +155,10 @@ Tutorials:
 - [Lesson: Concurrency - The Java Tutorials](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
 - [Java Concurrency and Multithreading Tutorial](http://tutorials.jenkov.com/java-concurrency/index.html)
 - [Java Multithreading - Udemy](https://www.udemy.com/java-multithreading/)
+
+## Tools
+
+- [SDKMAN!](https://sdkman.io/): SDK management
+- [Gradle](https://gradle.org/): A popular build tool. Convention over Configuration
+  - Install: `sdk install gradle`
+  - Create a project: `gradle init`
