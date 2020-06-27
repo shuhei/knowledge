@@ -17,6 +17,13 @@
     - A\*
       - A heuristics function must be "admissible" (never overestimate the cost) to provide the shortest path
 
+## String
+
+- Exact match
+  - Rabin-Karp: Rolling hash. Relatively easy to implement
+- Longest Common Subsequence
+  - Dynamic Programming: O(mn) time, O(min(m,n)) space
+
 ## Computational geometry
 
 - [Line segment intersection by sweep line algorithm](http://page.mi.fu-berlin.de/panos/cg13/l03.pdf)
