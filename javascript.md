@@ -2,6 +2,16 @@
 
 - `Object.is()`: almost same as `===`, but finds `NaN` and `NaN` as equal and `+0` and `-0` as not equal.
 
+## Numbers
+
+- The `number` type is double-precision 64-bit binary format IEEE 754 value (floating point number)
+- `Number.MAX_VALUE` is the largest number representable by IEEE 754
+- `Number.MIN_VALUE` is the smallest **positive** number representable by IEEE 754
+- `Number.MAX_SAFE_INTEGER` is `2^53 - 1`
+- `Number.MIN_SAFE_INTEGER` is `-(2^53 - 1)`
+- Bitwise operators convert numbers to 32-bit signed integers
+  - Safe integers are not necessarily safe in terms of bitwise operations
+
 ## Libraries
 
 ### React
@@ -10,7 +20,7 @@
 
 - Use [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks), especially `exhaustive-deps`
   - Otherwise, it's very hard to get dependencies of `useEffect`, `useCallback`, etc. straight
-- `useState`: differences between `setState() ` and `setValue()` for `const [value, setValue] = useState(init);`
+- `useState`: differences between `setState()` and `setValue()` for `const [value, setValue] = useState(init);`
   - `setValue()` doesn't trigger re-render if the state doesn't change (using `Object.is()`)
   - `setValue()` doesn't take a callback argument
 - `useRef`: in addition to the usage with `ref` prop, it's useful for creating a mutal reference shared across multiple renders (doesn't need to be listed in the dependencies list of `useEffect`, etc.)
@@ -35,20 +45,20 @@ https://jestjs.io/en/
 It's easier to assert methods if you don't use an actual class.
 
 ```js
-jest.mock('./SomeClass', () => {
-  const EventEmitter = require('events');
+jest.mock("./SomeClass", () => {
+  const EventEmitter = require("events");
   // `jest.fn()` works as a constructor (with `new`) too.
-  return jest.fn(() => {    
+  return jest.fn(() => {
     return {
       foo: jest.fn(),
       bar: jest.fn(),
       // Add methods from another class
-      ...EventEmitter.prototype
+      ...EventEmitter.prototype,
     };
   });
 });
 
-const SomeClass = require('./SomeClass');
+const SomeClass = require("./SomeClass");
 const something1 = new SomeClass();
 const something2 = new SomeClass();
 something1.foo();
@@ -59,8 +69,8 @@ expect(something1.foo).toHaveBeenCalledTimes(1);
 The assertion above would fail if we used an actual class because methods on the prototype are shared across multiple instances.
 
 ```js
-jest.mock('./SomeClass', () => {
-  const EventEmitter = require('events');
+jest.mock("./SomeClass", () => {
+  const EventEmitter = require("events");
   class SomeClass extends EventEmitter {}
   SomeClass.prototype.foo = jest.fn();
   SomeClass.prototype.bar = jest.fn();
