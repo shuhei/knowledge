@@ -17,7 +17,9 @@ On Mac:
 1. VirtualBox -> Selected the guest OS
 2. Click "Settings" -> "Network"
 3. Attach "Adapter 1" to "Bridged Adapter" and "en0: Wi-Fi (AirPort)", etc.
-  - "Host-only Adapter" works for SSH, but the guess OS cannot access to the internet
+
+- "Host-only Adapter" works for SSH, but the guess OS cannot access to the internet
+
 4. Restart the guest OS
 
 On guest OS:
@@ -133,3 +135,16 @@ System Preferences -> Bluetooth -> Uncheck "Allow Bluetooth devices to wake this
 - https://apple.stackexchange.com/a/89707/66857
 
 Make sure to connect the charger to the Macbook that you want to use closed because the bluetooth mouse can't wake it up.
+
+### Take a screenshot without the shadow
+
+To do it once, press `<Space>` holding `<Option>`.
+
+To make it the default:
+
+```sh
+defaults write com.apple.screencapture disable-shadow -bool TRUE
+killall SystemUIServer
+```
+
+- https://apple.stackexchange.com/questions/50860/how-do-i-take-a-screenshot-without-the-shadow-behind-it
