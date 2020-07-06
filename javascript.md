@@ -78,6 +78,19 @@ jest.mock("./SomeClass", () => {
 });
 ```
 
+#### Get the type of a mocked function in TypeScript
+
+```ts
+import * as something from "./something";
+
+jest.mock("./something");
+
+// `doSomething` has the type of the original function and the mocked function interface.
+const doSomething = something.doSomething as jest.MockedFunction<
+  typeof something.doSomething
+>;
+```
+
 ## Tools
 
 ### Yarn
