@@ -36,7 +36,7 @@ The cheapest and lightest grill with legs available in Berlin would be something
 - Straßenbräu - A brewery in Friedrichshain
 - Birra - An Italian craft beer bar in Prenzlauer Berg
 - Lager Lager - A craft beer bar of nice atmosphere. Also sells cans, bottles and growler fill!
-- Lager Lager Mitte - A craft beer shop that sells cans, bottles and growler fill.
+- (Closed) ~~Lager Lager Mitte - A craft beer shop that sells cans, bottles and growler fill.~~
 - Two Fellas Brewery - A classy bar with a beer garden. Simple and delicious pizza. Irish music every Sunday night.
 - [Muse](http://www.museberlin.com/) - A restaurant with beer by Fuerst Wiacek
 
@@ -55,6 +55,7 @@ Restaurants:
 - Tenzan Lab - Good Kakigori (shaved ice). Hojicha Mascarpone was nice. Also Sakekasu if you like sake.
 - Ishin - Reasonable sushi with reasonable price.
 - Takumi Nine - Good _miso_ ramen
+- Hako Ramen am Boxi - A rare place where you can get a proper Tsukemen in Berlin. Be careful with the other ramen restaurants with the same name "Hako". They are not related.
 - Kadoya - Good clear-broth _shio_ ramen and _izakaya_ dishes
 - Sasaya
 
@@ -64,6 +65,7 @@ Groceries:
   - Marutai Ramen Oita and Nagasaki are the best ramens that I can buy in Berlin
 - (Closed) ~~Daruma~~
 - Sasaya - Sasaya has a tiny Sake shop next to the restaurant. It has a good selection of Sake and a little bit of other drinks like Shochu and Umeshu.
+- Smart Deli
 
 ## Cake
 
@@ -71,7 +73,7 @@ Groceries:
 - [Komine](http://www.cafekomine.de/) - patisserie and cafe
 - [Hallmann & Klee](https://www.hallmann-klee.de/) - cafe
 - [Canal](https://www.canal.berlin/) - an icecream shop with beautiful eclairs
-- Les Pâtisseries de Sébastien - patisserie and cafe
+- Les Pâtisseries de Sébastien - French patisserie and cafe
 
 ## Insurance
 
@@ -137,3 +139,7 @@ Terms:
 
 - Decathlon has inexpensive and good bikes
 - You can try bikes at [Stadler](https://shop.zweirad-stadler.de/) shops
+
+## Tax Declaration
+
+- I used [SteurGo](https://www.steuergo.de/en).
