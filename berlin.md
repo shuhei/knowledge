@@ -6,8 +6,9 @@ BBQ is allowed only in designated areas. [Here you are allowed to have a barbecu
 
 The parks that I have been so far:
 
-- Tempelhofer Feld - Fun. 3 BBQ areas.
 - Volkspark Friedrichshain - Nice.
+  - Book a spot on a website https://www.neuer-hain.de/grillen-im-volkspark
+- Tempelhofer Feld - Fun. 3 BBQ areas.
 - Fennpfuhlpark - A beautiful park.
 - Mauerpark - So so for BBQ.
 
