@@ -148,3 +148,9 @@ killall SystemUIServer
 ```
 
 - https://apple.stackexchange.com/questions/50860/how-do-i-take-a-screenshot-without-the-shadow-behind-it
+
+### Portrait mode
+
+To use displays in the portrait mode with bigger resolutions, click `Displays -> Display -> Resolution -> Scaled` with the Alt/Option key.
+
+https://discussions.apple.com/thread/252102178
