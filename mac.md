@@ -154,3 +154,11 @@ killall SystemUIServer
 To use displays in the portrait mode with bigger resolutions, click `Displays -> Display -> Resolution -> Scaled` with the Alt/Option key.
 
 https://discussions.apple.com/thread/252102178
+
+### Application shortcut
+
+To add an application shortcut, go to `Keyboard -> Shortcuts -> App Shortcuts` and click "+". Write the exact menu item name that you can see in the application's menu.
+
+https://support.apple.com/guide/mac-help/create-keyboard-shortcuts-for-apps-mchlp2271/mac
+
+I'm not sure about the advice about `->`. With OS 11.1 and Chrome 88, I had to input `Developer Tools` instead of `Developer->Developer Tools`.
