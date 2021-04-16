@@ -16,5 +16,5 @@ Meat is super expensive here. We should eat fish.
 
 ## Craft beer
 
-* Käsers Schloss in Markethalle im Viadukt has a selection of craft beer. Especially, they had my all-time favorite beer, German Movies from Fruest Wiacek in Berlin!
+* Käsers Schloss in Markethalle im Viadukt has a selection of craft beer. Especially, they had my all-time favorite beer, German Movies from Fuerst Wiacek in Berlin!
 * Moby Hick's is a nice small craft beer store in Kreis 6.
