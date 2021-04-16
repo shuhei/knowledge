@@ -8,6 +8,8 @@
 
 ### Sashimi (raw fish)
 
+Meat is super expensive here. We should eat fish.
+
 * Frischeparadies has frozen fatty hamachi sashimi. Defrost it in a bowl of iced water. Simply amazing.
 * Big Migros stores have tuna and very fresh salmon. Their salmon is great. Tuna is OK.
 
