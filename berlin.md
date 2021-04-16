@@ -44,7 +44,11 @@ The cheapest and lightest grill with legs available in Berlin would be something
 ## Coffee
 
 - Kajumi - The best coffee shop in Berlin (my opinion)
+- [MokannTi](https://mokannti.com/) - Nice Ethiopian coffee beans with inexpensive price tags
+- WiM - Not your favorite text editor. Weginer is Mehr (Less is More).
 - Friedl
+- Five Elephant
+- The Barn - A selection of fancy coffee beans
 
 ## Japanese Food
 
