@@ -44,3 +44,13 @@ For example:
 ```
 
 https://vi.stackexchange.com/questions/5835/how-to-run-bash-command-over-current-file-and-replace-buffer-with-result
+
+### Turn off auto-formatting
+
+I have several plugins that try to format buffers on save. coc.nvim, vim-better-whitespace, editorconfig, oh my! Forget about them and just run:
+
+```vim
+:noa w
+```
+
+https://stackoverflow.com/questions/41070645/prevent-vims-autocmd-from-running-on-write-just-once
