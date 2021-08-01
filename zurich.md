@@ -1,5 +1,11 @@
 # Zürich
 
+## Public transport
+
+### ZVV
+
+* [Short distance ticket availability](https://www.zvv.ch/zvv/en/timetable/stop-specific-timetable.html)
+
 ## Japanese food
 
 ### Ramen
