@@ -4,7 +4,7 @@
 
 ### ZVV
 
-* [Short distance ticket availability](https://www.zvv.ch/zvv/en/timetable/stop-specific-timetable.html)
+- [Short distance ticket availability](https://www.zvv.ch/zvv/en/timetable/stop-specific-timetable.html)
 
 ## Japanese food
 
@@ -29,8 +29,11 @@ Meat is super expensive here. We should eat fish.
 
 - pao pao is a bubble tea shop from Berlin. I have never tried their Berlin shop, but it’s my favorite in Zurich.
 - Got Boba is another nice bubble tea shop, but it’s open only on Sunday.
+- Só Tea has creative bubble and fruit teas.
 
 ## Craft beer
 
 - Käsers Schloss in Markethalle im Viadukt has a selection of craft beer. Especially, they once had my all-time favorite beer, German Movies from Fuerst Wiacek in Berlin!
 - Moby Hick's is a nice small craft beer store in Kreis 6.
+- The International Beer Bar has a nice selection of tap beers including Lervig. It seems that they also Fuerst Wiacek once. There are nice outdoor seating with wooden benches.
+- BIERlab brews their own beers.
