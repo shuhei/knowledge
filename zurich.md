@@ -2,8 +2,13 @@
 
 ## Public transport
 
+## SBB
+
+- The half fare card is worth the money, even in the pandemic. It also works for boats and cable cars at sightseeing places.
+
 ### ZVV
 
+- Each of 110 and 120 worth two zones because they include the city centers of Zürich and Winterthur. That's why the cheapest ticket is 1-2 zones (1 zone for 110/120 and 2 zones for other zones).
 - [Short distance ticket availability](https://www.zvv.ch/zvv/en/timetable/stop-specific-timetable.html)
 
 ## Japanese food
@@ -29,7 +34,8 @@ Meat is super expensive here. We should eat fish.
 
 - pao pao is a bubble tea shop from Berlin. I have never tried their Berlin shop, but it’s my favorite in Zurich.
 - Got Boba is another nice bubble tea shop, but it’s open only on Sunday.
-- Só Tea has creative bubble and fruit teas.
+- Só Tea has creative bubble teas and fruit teas.
+- mì té has colorful bubble teas.
 
 ## Craft beer
 
