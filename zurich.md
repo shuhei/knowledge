@@ -13,20 +13,21 @@
 
 ## Japanese food
 
-### Ramen
+### Restaurants
 
-- Ooki’s tantanmen is my favorite. Their other non-ramen dishes are great as well, which I don’t see often at other ramen restaurants. Especially, their tempura is great.
+- Ooki’s tantanmen is my favorite ramen in Zürich. Their other non-ramen dishes are great as well, which I don’t see often at other ramen restaurants. Especially, their tempura is great.
+- Maru is a small imbiss in Zürich HB. You can get various rice bowls and udon noodles. They also have nice green tea (real matcha!) and sweets from Atelier Okashi.
 
 ### Groceries
 
 - YumiHana sells Korean and Japanese groceries. They sometimes have Kameda 100% Kakinotane, which is my most favorite snack. Also, Japanese-style bread (such as curry bread!) from Bakery Hiro Takahashi is great.
-- Nishi
+- Nishi sells Japanese groceries.
 
 ### Sashimi (raw fish)
 
-Meat is super expensive here. We should eat fish.
+Meat is expensive here. We should eat fish.
 
-- Frischeparadies has frozen fatty hamachi sashimi. Defrost it in a bowl of iced water. Simply amazing.
+- Frischeparadies has frozen fatty hamachi sashimi. Ask the staff and they'll pick it up from behind the counter. Defrost it in a bowl of iced water. Simply amazing.
 - Large Migros stores have tuna and very fresh salmon. Their salmon is great. Tuna is OK.
 - Coop often has salmon sashimi. It's not bad, but not as good as Migros'.
 - Der Frisch-Fisch Mercato has tuna, salmon and hamachi (Kingfish). I tried tuna and hamachi (Kingfish). Both were OK.
