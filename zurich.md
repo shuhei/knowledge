@@ -17,6 +17,8 @@
 
 - Ooki’s tantanmen is my favorite ramen in Zürich. Their other non-ramen dishes are great as well, which I don’t see often at other ramen restaurants. Especially, their tempura is great.
 - Maru is a small imbiss in Zürich HB. You can get various rice bowls and udon noodles. They also have nice green tea (real matcha!) and sweets from Atelier Okashi.
+- Bimi: sushi
+- Ninja Noodles in Jona, SG: Not in Zürich, but in less than an hour by train. Shio ramen is one of the best ramen that I have had in Europe.
 
 ### Groceries
 
